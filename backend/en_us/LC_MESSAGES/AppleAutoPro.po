@@ -1,0 +1,494 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AppleAutoPro\n"
+"POT-Creation-Date: 2025-09-25 20:01+0800\n"
+"PO-Revision-Date: 2025-09-25 20:02+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.7\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-KeywordsList: ;lang\n"
+"X-Poedit-SearchPath-0: main.py\n"
+
+#: main.py:107
+msgid "调试模式已启用"
+msgstr "Debug mode enabled"
+
+#: main.py:119
+msgid "请检查参数"
+msgstr "Please check the parameters"
+
+#: main.py:265 main.py:267 main.py:271
+msgid "请求失败"
+msgstr "Request failed"
+
+#: main.py:281
+msgid "成功连接到Redis"
+msgstr "Successfully connected to Redis"
+
+#: main.py:289 main.py:292 main.py:1965
+msgid "无法连接到Redis"
+msgstr "Unable to connect to Redis"
+
+#: main.py:296
+msgid "无法获取Redis配置"
+msgstr "Unable to retrieve Redis configuration"
+
+#: main.py:310
+msgid "无法从API获取任务"
+msgstr "Unable to get tasks from API"
+
+#: main.py:321
+msgid "无法更新账户信息"
+msgstr "Unable to update account information"
+
+#: main.py:332
+msgid "无法禁用账户"
+msgstr "Unable to disable account"
+
+#: main.py:342
+msgid "无法更新账号地区信息"
+msgstr "Unable to update account region information"
+
+#: main.py:349
+msgid "无法上报代理错误"
+msgstr "Unable to report proxy error"
+
+#: main.py:356
+msgid "无法更新下次运行时间"
+msgstr "Unable to update next run time"
+
+#: main.py:423
+msgid "无法更新日志"
+msgstr "Unable to update log"
+
+#: main.py:474
+msgid "无法从API获取代理"
+msgstr "Unable to retrieve proxy from API"
+
+#: main.py:478
+msgid "获取到代理"
+msgstr "Getting to the proxy"
+
+#: main.py:482
+msgid "代理类型错误"
+msgstr "Proxy type error"
+
+#: main.py:485
+msgid "正在使用代理"
+msgstr "Using proxy"
+
+#: main.py:515
+msgid "无法保存错误页面截图"
+msgstr "Unable to save screenshot of the error page"
+
+#: main.py:517
+msgid "已保存错误页面到容器中/app目录下error.html和error.png"
+msgstr ""
+"Error page has been saved in the container's /app directory as error.html "
+"and error.png"
+
+#: main.py:519
+msgid "检测到苹果风控"
+msgstr "Detected Apple risk control"
+
+#: main.py:589 main.py:590 main.py:1784 main.py:1785
+msgid "WebDriver调用失败"
+msgstr "WebDriver call failed"
+
+#: main.py:619 main.py:620 main.py:622 main.py:625 main.py:626 main.py:627
+#: main.py:636 main.py:638 main.py:639 main.py:931 main.py:932 main.py:1072
+#: main.py:1073
+msgid "页面加载失败"
+msgstr "Page load failed"
+
+#: main.py:619 main.py:622
+msgid "请检查代理是否可用"
+msgstr "Please check if the proxy is available"
+
+#: main.py:636 main.py:639 main.py:755 main.py:756 main.py:911 main.py:913
+#: main.py:914
+msgid "可能是服务器IP被封禁"
+msgstr "Maybe the server IP is blocked"
+
+#: main.py:647 main.py:660 main.py:677
+msgid "无法获取验证码"
+msgstr "Unable to retrieve verification code"
+
+#: main.py:664
+msgid "验证码图片格式错误"
+msgstr "Incorrect captcha image format"
+
+#: main.py:670
+msgid "无法输入验证码"
+msgstr "Unable to enter captcha"
+
+#: main.py:730 main.py:731 main.py:732 main.py:733 main.py:745 main.py:746
+#: main.py:748
+msgid "账号已被停用"
+msgstr "Account has been disabled"
+
+#: main.py:741
+msgid "登录成功"
+msgstr "Login successful"
+
+#: main.py:750 main.py:751 main.py:753
+msgid "账号无效"
+msgstr "Invalid account"
+
+#: main.py:755 main.py:756 main.py:911 main.py:913 main.py:914
+msgid "无法处理请求"
+msgstr "Unable to process request"
+
+#: main.py:758 main.py:759 main.py:760 main.py:1933 main.py:1936 main.py:1937
+msgid "执行任务时遇到未知错误"
+msgstr "An unknown error occurred while executing the task"
+
+#: main.py:770 main.py:773
+msgid "账号已被锁定"
+msgstr "Account has been locked"
+
+#: main.py:787 main.py:789 main.py:790
+msgid "关闭二步验证失败"
+msgstr "Failure to close two-step verification"
+
+#: main.py:787 main.py:789 main.py:790
+msgid "账号不允许关闭2FA"
+msgstr "Account can't turn off two-step verification"
+
+#: main.py:803 main.py:804 main.py:805 main.py:1269 main.py:1270 main.py:1271
+#: main.py:1321 main.py:1322
+msgid "操作被苹果拒绝，疑似被风控"
+msgstr "Operation refused by Apple, suspected risk control"
+
+#: main.py:827 main.py:828 main.py:829 main.py:830 main.py:866 main.py:867
+#: main.py:868 main.py:869
+msgid "选择选项失败，无法使用安全问题解锁"
+msgstr "Failed to select an option. Unable to unlock using security questions."
+
+#: main.py:849 main.py:851 main.py:852
+msgid "解锁失败，疑似被风控"
+msgstr "Unlock failed, suspected risk control"
+
+#: main.py:887
+msgid "开始登录账号"
+msgstr "Starting account login"
+
+#: main.py:902 main.py:903 main.py:923 main.py:924
+msgid "登录页面加载失败"
+msgstr "Failed to load the login page"
+
+#: main.py:943 main.py:1857 main.py:1867 main.py:1877
+msgid "登陆失败"
+msgstr "Login failed"
+
+#: main.py:976 main.py:991 main.py:992 main.py:993 main.py:1243
+msgid "获取安全问题失败"
+msgstr "Failed to retrieve security questions"
+
+#: main.py:983 main.py:984 main.py:985 main.py:986 main.py:1220 main.py:1221
+#: main.py:1222 main.py:1223
+msgid "密保错误次数过多，稍后重试"
+msgstr "Too many answer errors, try later."
+
+#: main.py:998 main.py:999 main.py:1000 main.py:1249 main.py:1250 main.py:1251
+msgid "未找到对应的安全问题答案"
+msgstr "No matching security question answer found"
+
+#: main.py:1020 main.py:1021 main.py:1022 main.py:1023 main.py:1215
+#: main.py:1276 main.py:1277 main.py:1278 main.py:1279
+msgid "密保答案错误"
+msgstr "Security answer is incorrect"
+
+#: main.py:1028 main.py:1029 main.py:1030 main.py:1228 main.py:1229
+#: main.py:1285 main.py:1287
+msgid "无法使用密保"
+msgstr "Unable to use security question"
+
+#: main.py:1048
+msgid "登录AppleID失败"
+msgstr "Failed to log into Apple ID"
+
+#: main.py:1066
+msgid "开始删除设备"
+msgstr "Starting to remove devices"
+
+#: main.py:1080
+msgid "没有设备需要删除"
+msgstr "No devices need to be removed"
+
+#: main.py:1083
+#, python-format
+msgid "共有%d个设备"
+msgstr "There are %d devices"
+
+#: main.py:1096
+msgid "设备删除完毕"
+msgstr "Device deletion complete"
+
+#: main.py:1099
+msgid "删除设备失败"
+msgstr "Failed to remove devices"
+
+#: main.py:1107
+msgid "未设置账号语言，仅检测"
+msgstr "Account language not set, only detecting"
+
+#: main.py:1108
+msgid "开始更改语言"
+msgstr "Starting to change language"
+
+#: main.py:1127
+msgid "语言更改成功"
+msgstr "Language changed successfully"
+
+#: main.py:1131
+msgid "更改语言失败"
+msgstr "Failed to change language"
+
+#: main.py:1145
+msgid "开始检测姓名"
+msgstr "Start to check name"
+
+#: main.py:1186
+msgid "姓名更改成功"
+msgstr "Name changed successfully"
+
+#: main.py:1191
+msgid "更改姓名失败"
+msgstr "Failed to change name"
+
+#: main.py:1213 main.py:1214 main.py:1216
+msgid "生日答案错误"
+msgstr "Birthday answer is incorrect"
+
+#: main.py:1237 main.py:1238 main.py:1239
+msgid "生日错误"
+msgstr "Incorrect birthday"
+
+#: main.py:1296 main.py:1297 main.py:1301
+msgid "密码框获取失败"
+msgstr "Failed to retrieve password field"
+
+#: main.py:1314
+msgid "无法确认密码修改"
+msgstr "Unable to confirm password change"
+
+#: main.py:1328
+msgid "密码修改成功"
+msgstr "Password changed successfully"
+
+#: main.py:1328
+msgid "新密码："
+msgstr "New Password:"
+
+#: main.py:1334
+msgid "开始更改密码"
+msgstr "Starting to change password"
+
+#: main.py:1341 main.py:1343 main.py:1344
+msgid "无法修改密码，可能是二步验证关闭失败"
+msgstr ""
+"Unable to change password, possibly because two-step verification could not "
+"be disabled"
+
+#: main.py:1360 main.py:1362
+msgid "无法使用安全问题重设密码"
+msgstr "Unable to reset password using security questions"
+
+#: main.py:1392
+msgid "跳过双重验证失败"
+msgstr "Failed to skip two-factor authentication"
+
+#: main.py:1431 main.py:1444
+msgid "检测AppStore状态时登陆失败"
+msgstr "Failed to log in while checking App Store status"
+
+#: main.py:1458 main.py:1459 main.py:1460
+msgid "登陆AppStore失败"
+msgstr "Failed to log into the App Store"
+
+#: main.py:1467
+msgid "开始更改地区"
+msgstr "Starting to change region"
+
+#: main.py:1482 main.py:1485 main.py:1590
+msgid "更改地区失败"
+msgstr "Failed to change region"
+
+#: main.py:1483 main.py:1485
+msgid "请检查账号是否存在订阅项目"
+msgstr "Please check if there is a subscription program for the account"
+
+#: main.py:1489
+msgid "暂不支持所选地区"
+msgstr "The selected region is not supported"
+
+#: main.py:1606 main.py:1607 main.py:1608
+msgid "已请求访问账号"
+msgstr "Requested access to the account"
+
+#: main.py:1616
+msgid "开始移除丢失模式"
+msgstr "Starting to remove Lost Mode"
+
+#: main.py:1699
+msgid "解除丢失成功"
+msgstr "Lost Mode successfully removed"
+
+#: main.py:1703
+msgid "移除丢失模式失败"
+msgstr "Failed to remove Lost Mode"
+
+#: main.py:1715
+msgid "无法获取当前IP"
+msgstr "Unable to retrieve current IP"
+
+#: main.py:1740
+msgid "Telegram发送消息失败"
+msgstr "Failed to send Telegram message"
+
+#: main.py:1749
+msgid "WebHook请求失败"
+msgstr "WebHook Request failed"
+
+#: main.py:1755
+msgid "微信通知发送失败"
+msgstr "WeChat notification sending failure"
+
+#: main.py:1758
+msgid "正常"
+msgstr "Normal"
+
+#: main.py:1759 main.py:1796 main.py:1820 main.py:1828 main.py:1845
+msgid "账号信息更新成功"
+msgstr "Account information updated successfully"
+
+#: main.py:1762
+msgid "账号信息更新失败"
+msgstr "Failed to update account information"
+
+#: main.py:1775
+msgid "使用邮件解锁2FA失败"
+msgstr "Failed to unlock 2-step verification using email"
+
+#: main.py:1796 main.py:1820 main.py:1828 main.py:1845
+msgid "新密码"
+msgstr "New Password"
+
+#: main.py:1801
+msgid "解锁失败"
+msgstr "Unlock failed"
+
+#: main.py:1807
+msgid "检测到账号开启双重认证，开始解锁"
+msgstr ""
+"Detected that the account has two-factor authentication enabled, starting "
+"unlock"
+
+#: main.py:1810
+msgid "检测到账号被锁定，开始解锁"
+msgstr "Detected that the account is locked, starting unlock"
+
+#: main.py:1814
+msgid "账号检测完毕"
+msgstr "Account check complete"
+
+#: main.py:1825
+msgid "开始修改密码"
+msgstr "Starting to change the password"
+
+#: main.py:1830 main.py:1847
+msgid "修改密码失败"
+msgstr "Failed to change password"
+
+#: main.py:1840
+msgid "密码错误，开始修改密码"
+msgstr "Incorrect password, starting to change password"
+
+#: main.py:1882 main.py:1883 main.py:1884
+msgid "检测地区失败"
+msgstr "Failed to detect region"
+
+#: main.py:1889 main.py:1891
+msgid "地区修改成功"
+msgstr "Region changed successfully"
+
+#: main.py:1893
+msgid "地区修改失败"
+msgstr "Failed to change region"
+
+#: main.py:1896
+msgid "开始检测AppStore状态"
+msgstr "Starting to check App Store status"
+
+#: main.py:1915
+msgid "程序未授权"
+msgstr "Program not authorized"
+
+#: main.py:1919
+msgid "任务已被禁用"
+msgstr "Task has been disabled"
+
+#: main.py:1922
+msgid "当前账号"
+msgstr "Current account"
+
+#: main.py:1925
+msgid "任务执行完毕"
+msgstr "Task completed"
+
+#: main.py:1927 main.py:1929
+msgid "任务执行超时"
+msgstr "Task execution timed out"
+
+#: main.py:1954
+msgid "任务执行成功"
+msgstr "Task execution succeeded"
+
+#: main.py:1960
+msgid "启动AppleAutoPro"
+msgstr "Launching AppleAutoPro"
+
+#: main.py:1971
+msgid "获取任务队列失败"
+msgstr "Failed to retrieve task queue"
+
+#~ msgid "开始加载带认证的代理"
+#~ msgstr "Starting to load proxy with authentication"
+
+#~ msgid "初始化WebDriver"
+#~ msgstr "Initializing WebDriver"
+
+#~ msgid "WebDriver地址不能为空"
+#~ msgstr "WebDriver address cannot be empty"
+
+#~ msgid "当前账号已开启2FA"
+#~ msgstr "Two-Factor Authentication is enabled for this account"
+
+#~ msgid "开始更改姓名"
+#~ msgstr "Starting to change name"
+
+#~ msgid "WebDriver关闭失败"
+#~ msgstr "Failed to close WebDriver"
+
+#~ msgid "目标姓名中包含非法字符"
+#~ msgstr "The target name contains invalid characters"
+
+#~ msgid "请检查账号是否启用iCloud"
+#~ msgstr "Please check if iCloud is enabled on your account"
+
+#, fuzzy
+#~| msgid "获取安全问题失败"
+#~ msgid "无法获取安全问题"
+#~ msgstr "Failed to retrieve security questions"
+
+#~ msgid "安全问题错误次数过多"
+#~ msgstr "Too many failed security attempts"
+
+#~ msgid "加载页面失败"
+#~ msgstr "Page load failed"
