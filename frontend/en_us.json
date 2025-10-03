@@ -325,7 +325,9 @@
         "emailAlreadyExist": "Email Already Exists",
         "emailUnlockUrl": "Email Unlock URL",
         "disableSelf": "You cannot disable your own account",
-        "downgradeSelf": "You cannot remove your own admin privileges"
+        "downgradeSelf": "You cannot remove your own admin privileges",
+        "createTime": "Creation Time",
+        "lastLogin": "Last Login"
     },
     "admin": "Administrator",
     "unLicensed": "Program Unlicensed",
@@ -378,7 +380,8 @@
         "enableCaptcha": "Enable CAPTCHA",
         "enableCaptchaDescription": "When enabled, the share page will require users to pass CAPTCHA verification to access.",
         "apiDisabled": "API Access Not Enabled",
-        "enable_cors": "Enable API CORS support"
+        "enable_cors": "Enable API CORS support",
+        "visitLimitReached": "Visit limit reached, please try again later"
     },
     "wrongPwd": "Password incorrect",
     "wrongCaptcha": "Captcha incorrect",

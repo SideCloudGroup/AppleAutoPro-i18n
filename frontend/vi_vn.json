@@ -325,7 +325,9 @@
         "emailAlreadyExist": "Email đã tồn tại",
         "emailUnlockUrl": "Liên kết mở khóa email",
         "disableSelf": "Không thể vô hiệu hóa tài khoản của chính bạn",
-        "downgradeSelf": "Không thể hủy quyền quản trị viên của chính bạn"
+        "downgradeSelf": "Không thể hủy quyền quản trị viên của chính bạn",
+        "createTime": "Thời gian tạo",
+        "lastLogin": "Đăng nhập lần cuối"
     },
     "admin": "Quản trị viên",
     "unLicensed": "Chưa được cấp phép",
@@ -378,7 +380,8 @@
         "enableCaptcha": "Bật xác minh CAPTCHA",
         "enableCaptchaDescription": "Khi bật, trang chia sẻ sẽ yêu cầu người dùng vượt qua xác minh CAPTCHA để truy cập",
         "apiDisabled": "Truy cập API chưa được bật",
-        "enable_cors": "Bật hỗ trợ CORS cho API"
+        "enable_cors": "Bật hỗ trợ CORS cho API",
+        "visitLimitReached": "Đã đạt giới hạn truy cập, vui lòng thử lại sau"
     },
     "wrongPwd": "Mật khẩu sai",
     "wrongCaptcha": "Mã xác nhận sai",
