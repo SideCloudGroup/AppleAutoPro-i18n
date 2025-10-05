@@ -264,7 +264,8 @@
         "view": "查看",
         "viewDetail": "查看详情",
         "quickActions": "快捷操作",
-        "reset": "重置"
+        "reset": "重置",
+        "close": "关闭"
     },
     "wechat": "微信",
     "expire": "到期时间",
@@ -382,7 +383,10 @@
         "enableCaptchaDescription": "启用后，分享页将要求用户通过人机验证才能访问",
         "apiDisabled": "API访问未启用",
         "enable_cors": "启用API CORS支持",
-        "visitLimitReached": "访问次数已达上限，请稍后再试"
+        "visitLimitReached": "访问次数已达上限，请稍后再试",
+        "visitLimit": "访问次数限制",
+        "visitLimitTip": "页面到达访问次数后将不再显示账号，留空则不限制",
+        "visitCount": "已被访问次数"
     },
     "wrongPwd": "密码错误",
     "wrongCaptcha": "验证码错误",
@@ -441,7 +445,8 @@
     "batchAdd": {
         "batchAdd": "批量添加",
         "success": "批量添加完成，成功添加{:success}个账号",
-        "failed": "批量添加完成，成功添加{:success}个账号，{:failed}个账号添加失败"
+        "failed": "批量添加完成，成功添加{:success}个账号，{:failed}个账号添加失败",
+        "result": "添加结果"
     },
     "add": {
         "add": "添加",
@@ -531,7 +536,9 @@
             "num.require": "请填写数量",
             "num.integer": "数量格式错误",
             "num.gt": "数量必须大于0",
-            "showLink.require": "显示完整链接选项不能为空"
+            "showLink.require": "显示完整链接选项不能为空",
+            "visit_limit.integer": "访问次数格式错误",
+            "visit_limit.egt": "访问次数不能小于0"
         },
         "sharePage": {
             "share_link.require": "分享链接不能为空",
@@ -554,7 +561,9 @@
             "theme.require": "分享页模板不能为空",
             "allow_unlock.require": "是否允许解锁不能为空",
             "allow_unlock.boolean": "是否允许解锁必须为布尔值",
-            "enable_cors.boolean": "启用API CORS支持必须为布尔值"
+            "enable_cors.boolean": "启用API CORS支持必须为布尔值",
+            "visit_limit.integer": "访问次数格式错误",
+            "visit_limit.egt": "访问次数不能小于0"
         },
         "user": {
             "email.require": "邮箱不能为空",

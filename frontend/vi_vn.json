@@ -263,7 +263,8 @@
         "view": "Xem",
         "viewDetail": "Xem chi tiết",
         "quickActions": "Hành động nhanh",
-        "reset": "Đặt lại"
+        "reset": "Đặt lại",
+        "close": "Đóng"
     },
     "wechat": "WeChat",
     "expire": "Hết hạn",
@@ -381,7 +382,10 @@
         "enableCaptchaDescription": "Khi bật, trang chia sẻ sẽ yêu cầu người dùng vượt qua xác minh CAPTCHA để truy cập",
         "apiDisabled": "Truy cập API chưa được bật",
         "enable_cors": "Bật hỗ trợ CORS cho API",
-        "visitLimitReached": "Đã đạt giới hạn truy cập, vui lòng thử lại sau"
+        "visitLimitReached": "Số lần truy cập đã đạt giới hạn, vui lòng thử lại sau",
+        "visitLimit": "Giới hạn số lần truy cập",
+        "visitLimitTip": "Sau khi trang đạt đến số lần truy cập giới hạn sẽ không hiển thị tài khoản nữa, để trống nếu không giới hạn",
+        "visitCount": "Số lần đã được truy cập"
     },
     "wrongPwd": "Mật khẩu sai",
     "wrongCaptcha": "Mã xác nhận sai",
@@ -439,7 +443,8 @@
     "batchAdd": {
         "batchAdd": "Thêm hàng loạt",
         "success": "Hoàn tất thêm hàng loạt, thành công thêm {:success} tài khoản",
-        "failed": "Hoàn tất thêm hàng loạt, thành công thêm {:success} tài khoản, {:failed} tài khoản thất bại"
+        "failed": "Hoàn tất thêm hàng loạt, thành công thêm {:success} tài khoản, {:failed} tài khoản thất bại",
+        "result": "Thêm kết quả"
     },
     "add": {
         "add": "Thêm",
@@ -529,7 +534,9 @@
             "num.require": "Vui lòng nhập số lượng",
             "num.integer": "Số lượng phải là số nguyên",
             "num.gt": "Số lượng phải lớn hơn 0",
-            "showLink.require": "Vui lòng chọn có hiển thị liên kết đổi hay không"
+            "showLink.require": "Vui lòng chọn có hiển thị liên kết đổi hay không",
+            "visit_limit.integer": "Định dạng giới hạn truy cập không chính xác",
+            "visit_limit.egt": "Giới hạn truy cập không được nhỏ hơn 0"
         },
         "sharePage": {
             "share_link.require": "Liên kết chia sẻ không được để trống",
@@ -552,7 +559,9 @@
             "theme.require": "Chủ đề không được để trống",
             "allow_unlock.require": "Cho phép mở khóa không được để trống",
             "allow_unlock.boolean": "Cho phép mở khóa phải là giá trị boolean",
-            "enable_cors.boolean": "Cho phép CORS phải là giá trị boolean"
+            "enable_cors.boolean": "Cho phép CORS phải là giá trị boolean",
+            "visit_limit.integer": "Định dạng giới hạn truy cập không chính xác",
+            "visit_limit.egt": "Giới hạn truy cập không được nhỏ hơn 0"
         },
         "user": {
             "email.require": "Email không được để trống",

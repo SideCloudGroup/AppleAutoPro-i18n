@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: AppleAutoPro\n"
-"POT-Creation-Date: 2025-09-28 10:29+0800\n"
-"PO-Revision-Date: 2025-09-28 10:29+0800\n"
+"POT-Creation-Date: 2025-10-05 17:14+0800\n"
+"PO-Revision-Date: 2025-10-05 17:14+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi_VN\n"
@@ -22,437 +22,437 @@ msgstr ""
 msgid "请检查参数"
 msgstr ""
 
-#: main.py:270 main.py:272 main.py:276
+#: main.py:286 main.py:289 main.py:295
 msgid "请求失败"
 msgstr ""
 
-#: main.py:286
+#: main.py:305
 msgid "成功连接到Redis"
 msgstr ""
 
-#: main.py:294 main.py:297 main.py:2021
+#: main.py:313 main.py:316 main.py:2146
 msgid "无法连接到Redis"
 msgstr ""
 
-#: main.py:301
+#: main.py:320
 msgid "无法获取Redis配置"
 msgstr ""
 
-#: main.py:315
+#: main.py:334
 msgid "无法从API获取任务"
 msgstr ""
 
-#: main.py:326
+#: main.py:345
 msgid "无法更新账户信息"
 msgstr ""
 
-#: main.py:337
+#: main.py:356
 msgid "无法禁用账户"
 msgstr ""
 
-#: main.py:347
+#: main.py:366
 msgid "无法更新账号地区信息"
 msgstr ""
 
-#: main.py:354
+#: main.py:373
 msgid "无法上报代理错误"
 msgstr ""
 
-#: main.py:361
+#: main.py:380
 msgid "无法更新下次运行时间"
 msgstr ""
 
-#: main.py:428
+#: main.py:452
 msgid "无法更新日志"
 msgstr ""
 
-#: main.py:495
+#: main.py:525
 msgid "无法从API获取代理"
 msgstr ""
 
-#: main.py:499
+#: main.py:529
 msgid "获取到代理"
 msgstr ""
 
-#: main.py:503
+#: main.py:533
 msgid "代理类型错误"
 msgstr ""
 
-#: main.py:506
+#: main.py:536
 msgid "正在使用代理"
 msgstr ""
 
-#: main.py:536
+#: main.py:568
 msgid "无法保存错误页面截图"
 msgstr ""
 
-#: main.py:538
+#: main.py:570
 msgid "已保存错误页面到容器中/app目录下error.html和error.png"
 msgstr ""
 
-#: main.py:540
+#: main.py:572
 msgid "检测到苹果风控"
 msgstr ""
 
-#: main.py:609 main.py:610 main.py:1807 main.py:1808
+#: main.py:657 main.py:658 main.py:1908 main.py:1909
 msgid "WebDriver调用失败"
 msgstr ""
 
-#: main.py:639 main.py:640 main.py:642 main.py:645 main.py:646 main.py:647
-#: main.py:656 main.py:658 main.py:659 main.py:951 main.py:952 main.py:1092
-#: main.py:1093
+#: main.py:725 main.py:726 main.py:728 main.py:731 main.py:732 main.py:733
+#: main.py:742 main.py:744 main.py:745 main.py:1037 main.py:1038 main.py:1178
+#: main.py:1179
 msgid "页面加载失败"
 msgstr ""
 
-#: main.py:639 main.py:642
+#: main.py:725
 msgid "请检查代理是否可用"
 msgstr ""
 
-#: main.py:656 main.py:659 main.py:775 main.py:776 main.py:931 main.py:933
-#: main.py:934
+#: main.py:742 main.py:745 main.py:860 main.py:861 main.py:1016 main.py:1018
+#: main.py:1019
 msgid "可能是服务器IP被封禁"
 msgstr ""
 
-#: main.py:667 main.py:680 main.py:697
+#: main.py:753 main.py:766 main.py:781
 msgid "无法获取验证码"
 msgstr ""
 
-#: main.py:684
+#: main.py:770
 msgid "验证码图片格式错误"
 msgstr ""
 
-#: main.py:690
+#: main.py:776
 msgid "无法输入验证码"
 msgstr ""
 
-#: main.py:750 main.py:751 main.py:752 main.py:753 main.py:765 main.py:766
-#: main.py:768
+#: main.py:835 main.py:836 main.py:837 main.py:838 main.py:850 main.py:851
+#: main.py:853
 msgid "账号已被停用"
 msgstr ""
 
-#: main.py:761
+#: main.py:846
 msgid "登录成功"
 msgstr ""
 
-#: main.py:770 main.py:771 main.py:773
+#: main.py:855 main.py:856 main.py:858
 msgid "账号无效"
 msgstr ""
 
-#: main.py:775 main.py:776 main.py:931 main.py:933 main.py:934
+#: main.py:860 main.py:861 main.py:1016 main.py:1018 main.py:1019
 msgid "无法处理请求"
 msgstr ""
 
-#: main.py:778 main.py:779 main.py:780 main.py:1929 main.py:1932 main.py:1933
+#: main.py:863 main.py:864 main.py:865 main.py:2038 main.py:2041 main.py:2042
 msgid "执行任务时遇到未知错误"
 msgstr ""
 
-#: main.py:791 main.py:794
+#: main.py:876 main.py:879
 msgid "账号已被锁定"
 msgstr ""
 
-#: main.py:807 main.py:809 main.py:810
+#: main.py:892 main.py:894 main.py:895
 msgid "关闭二步验证失败"
 msgstr ""
 
-#: main.py:807 main.py:809 main.py:810
+#: main.py:892 main.py:894 main.py:895
 msgid "账号不允许关闭2FA"
 msgstr ""
 
-#: main.py:823 main.py:824 main.py:825 main.py:1287 main.py:1288 main.py:1289
-#: main.py:1341 main.py:1342
+#: main.py:908 main.py:909 main.py:910 main.py:1371 main.py:1372 main.py:1373
+#: main.py:1425 main.py:1426
 msgid "操作被苹果拒绝，疑似被风控"
 msgstr ""
 
-#: main.py:847 main.py:848 main.py:849 main.py:850 main.py:886 main.py:887
-#: main.py:888 main.py:889
+#: main.py:932 main.py:933 main.py:934 main.py:935 main.py:971 main.py:972
+#: main.py:973 main.py:974
 msgid "选择选项失败，无法使用安全问题解锁"
 msgstr ""
 
-#: main.py:869 main.py:871 main.py:872
+#: main.py:954 main.py:956 main.py:957
 msgid "解锁失败，疑似被风控"
 msgstr ""
 
-#: main.py:907
+#: main.py:992
 msgid "开始登录账号"
 msgstr ""
 
-#: main.py:922 main.py:923 main.py:943 main.py:944
+#: main.py:1007 main.py:1008 main.py:1028 main.py:1029
 msgid "登录页面加载失败"
 msgstr ""
 
-#: main.py:963 main.py:1880 main.py:1890 main.py:1900
+#: main.py:1049 main.py:1989 main.py:1999 main.py:2009
 msgid "登陆失败"
 msgstr ""
 
-#: main.py:996 main.py:1011 main.py:1012 main.py:1013 main.py:1263
+#: main.py:1082 main.py:1097 main.py:1098 main.py:1099 main.py:1349
 msgid "获取安全问题失败"
 msgstr ""
 
-#: main.py:1003 main.py:1004 main.py:1005 main.py:1006 main.py:1240
-#: main.py:1241 main.py:1242 main.py:1243
+#: main.py:1089 main.py:1090 main.py:1091 main.py:1092 main.py:1326
+#: main.py:1327 main.py:1328 main.py:1329
 msgid "密保错误次数过多，稍后重试"
 msgstr ""
 
-#: main.py:1018 main.py:1019 main.py:1020 main.py:1269 main.py:1270
-#: main.py:1271
+#: main.py:1104 main.py:1105 main.py:1106 main.py:1355 main.py:1356
+#: main.py:1357
 msgid "未找到对应的安全问题答案"
 msgstr ""
 
-#: main.py:1040 main.py:1041 main.py:1042 main.py:1043 main.py:1235
-#: main.py:1294 main.py:1295 main.py:1296 main.py:1297
+#: main.py:1126 main.py:1127 main.py:1128 main.py:1129 main.py:1321
+#: main.py:1378 main.py:1379 main.py:1380 main.py:1381
 msgid "密保答案错误"
 msgstr ""
 
-#: main.py:1048 main.py:1049 main.py:1050 main.py:1248 main.py:1249
-#: main.py:1303 main.py:1305
+#: main.py:1134 main.py:1135 main.py:1136 main.py:1334 main.py:1335
+#: main.py:1387 main.py:1389
 msgid "无法使用密保"
 msgstr ""
 
-#: main.py:1068
+#: main.py:1154
 msgid "登录AppleID失败"
 msgstr ""
 
-#: main.py:1086
+#: main.py:1172
 msgid "开始删除设备"
 msgstr ""
 
-#: main.py:1100
+#: main.py:1186
 msgid "没有设备需要删除"
 msgstr ""
 
-#: main.py:1103
+#: main.py:1189
 #, python-format
 msgid "共有%d个设备"
 msgstr ""
 
-#: main.py:1116
+#: main.py:1202
 msgid "设备删除完毕"
 msgstr ""
 
-#: main.py:1119
+#: main.py:1205
 msgid "删除设备失败"
 msgstr ""
 
-#: main.py:1127
+#: main.py:1213
 msgid "未设置账号语言，仅检测"
 msgstr ""
 
-#: main.py:1128
+#: main.py:1214
 msgid "开始更改语言"
 msgstr ""
 
-#: main.py:1147
+#: main.py:1233
 msgid "语言更改成功"
 msgstr ""
 
-#: main.py:1151
+#: main.py:1237
 msgid "更改语言失败"
 msgstr ""
 
-#: main.py:1165
+#: main.py:1251
 msgid "开始检测姓名"
 msgstr ""
 
-#: main.py:1206
+#: main.py:1292
 msgid "姓名更改成功"
 msgstr ""
 
-#: main.py:1211
+#: main.py:1297
 msgid "更改姓名失败"
 msgstr ""
 
-#: main.py:1233 main.py:1234 main.py:1236
+#: main.py:1319 main.py:1320 main.py:1322
 msgid "生日答案错误"
 msgstr ""
 
-#: main.py:1257 main.py:1258 main.py:1259
+#: main.py:1343 main.py:1344 main.py:1345
 msgid "生日错误"
 msgstr ""
 
-#: main.py:1314 main.py:1315 main.py:1319
+#: main.py:1398 main.py:1399 main.py:1403
 msgid "密码框获取失败"
 msgstr ""
 
-#: main.py:1334
+#: main.py:1418
 msgid "无法确认密码修改"
 msgstr ""
 
-#: main.py:1348
+#: main.py:1432
 msgid "密码修改成功"
 msgstr ""
 
-#: main.py:1348
+#: main.py:1432
 msgid "新密码："
 msgstr ""
 
-#: main.py:1354
+#: main.py:1438
 msgid "开始更改密码"
 msgstr ""
 
-#: main.py:1361 main.py:1363 main.py:1364
+#: main.py:1445 main.py:1447 main.py:1448
 msgid "无法修改密码，可能是二步验证关闭失败"
 msgstr ""
 
-#: main.py:1380 main.py:1382
+#: main.py:1464 main.py:1466
 msgid "无法使用安全问题重设密码"
 msgstr ""
 
-#: main.py:1412
+#: main.py:1496
 msgid "跳过双重验证失败"
 msgstr ""
 
-#: main.py:1451 main.py:1464
+#: main.py:1550 main.py:1563
 msgid "检测AppStore状态时登陆失败"
 msgstr ""
 
-#: main.py:1478 main.py:1479 main.py:1480
+#: main.py:1577 main.py:1578 main.py:1579
 msgid "登陆AppStore失败"
 msgstr ""
 
-#: main.py:1487
+#: main.py:1586
 msgid "开始更改地区"
 msgstr ""
 
-#: main.py:1502 main.py:1505 main.py:1610
+#: main.py:1601 main.py:1604 main.py:1709
 msgid "更改地区失败"
 msgstr ""
 
-#: main.py:1503 main.py:1505
+#: main.py:1602 main.py:1604
 msgid "请检查账号是否存在订阅项目"
 msgstr ""
 
-#: main.py:1509
+#: main.py:1608
 msgid "暂不支持所选地区"
 msgstr ""
 
-#: main.py:1627 main.py:1628 main.py:1629
+#: main.py:1726 main.py:1727 main.py:1728
 msgid "已请求访问账号"
 msgstr ""
 
-#: main.py:1637
+#: main.py:1736
 msgid "开始移除丢失模式"
 msgstr ""
 
-#: main.py:1720
+#: main.py:1819
 msgid "解除丢失成功"
 msgstr ""
 
-#: main.py:1724
+#: main.py:1823
 msgid "移除丢失模式失败"
 msgstr ""
 
-#: main.py:1735 main.py:1742
+#: main.py:1834 main.py:1843
 msgid "无法获取当前IP"
 msgstr ""
 
-#: main.py:1762
+#: main.py:1863
 msgid "Telegram发送消息失败"
 msgstr ""
 
-#: main.py:1771
+#: main.py:1872
 msgid "WebHook请求失败"
 msgstr ""
 
-#: main.py:1777
+#: main.py:1878
 msgid "微信通知发送失败"
 msgstr ""
 
-#: main.py:1780
+#: main.py:1881
 msgid "正常"
 msgstr ""
 
-#: main.py:1781 main.py:1819 main.py:1843 main.py:1851 main.py:1868
+#: main.py:1882 main.py:1924 main.py:1952 main.py:1960 main.py:1977
 msgid "账号信息更新成功"
 msgstr ""
 
-#: main.py:1784
+#: main.py:1885
 msgid "账号信息更新失败"
 msgstr ""
 
-#: main.py:1797
+#: main.py:1898
 msgid "使用邮件解锁2FA失败"
 msgstr ""
 
-#: main.py:1819 main.py:1843 main.py:1851 main.py:1868
+#: main.py:1924 main.py:1952 main.py:1960 main.py:1977
 msgid "新密码"
 msgstr ""
 
-#: main.py:1824
+#: main.py:1929
 msgid "解锁失败"
 msgstr ""
 
-#: main.py:1830
+#: main.py:1935
 msgid "检测到账号开启双重认证，开始解锁"
 msgstr ""
 
-#: main.py:1833
+#: main.py:1938
 msgid "检测到账号被锁定，开始解锁"
 msgstr ""
 
-#: main.py:1837
+#: main.py:1942
 msgid "账号检测完毕"
 msgstr ""
 
-#: main.py:1848
+#: main.py:1957
 msgid "开始修改密码"
 msgstr ""
 
-#: main.py:1853 main.py:1870
+#: main.py:1962 main.py:1979
 msgid "修改密码失败"
 msgstr ""
 
-#: main.py:1863
+#: main.py:1972
 msgid "密码错误，开始修改密码"
 msgstr ""
 
-#: main.py:1905 main.py:1906 main.py:1907
+#: main.py:2014 main.py:2015 main.py:2016
 msgid "检测地区失败"
 msgstr ""
 
-#: main.py:1912 main.py:1914
+#: main.py:2021 main.py:2023
 msgid "地区修改成功"
 msgstr ""
 
-#: main.py:1916
+#: main.py:2025
 msgid "地区修改失败"
 msgstr ""
 
-#: main.py:1919
+#: main.py:2028
 msgid "开始检测AppStore状态"
 msgstr ""
 
-#: main.py:1956
+#: main.py:2061
 msgid "程序未授权"
 msgstr ""
 
-#: main.py:1960
+#: main.py:2065
 msgid "任务已被禁用"
 msgstr ""
 
-#: main.py:1963
+#: main.py:2068
 msgid "当前账号"
 msgstr ""
 
-#: main.py:1966
+#: main.py:2071
 msgid "任务执行完毕"
 msgstr ""
 
-#: main.py:1969
+#: main.py:2074
 msgid "后端被中断"
 msgstr ""
 
-#: main.py:1983 main.py:1985
+#: main.py:2083 main.py:2085
 msgid "任务执行超时"
 msgstr ""
 
-#: main.py:2010
+#: main.py:2112
 msgid "任务执行成功"
 msgstr ""
 
-#: main.py:2016
+#: main.py:2141
 msgid "启动AppleAutoPro"
 msgstr ""
 
-#: main.py:2027
+#: main.py:2152
 msgid "获取任务队列失败"
 msgstr ""

@@ -263,7 +263,8 @@
         "view": "View",
         "viewDetail": "View Detail",
         "quickActions": "Quick Actions",
-        "reset": "Reset"
+        "reset": "Reset",
+        "close": "Close"
     },
     "wechat": "WeChat",
     "expire": "Expiration Time",
@@ -381,7 +382,10 @@
         "enableCaptchaDescription": "When enabled, the share page will require users to pass CAPTCHA verification to access.",
         "apiDisabled": "API Access Not Enabled",
         "enable_cors": "Enable API CORS support",
-        "visitLimitReached": "Visit limit reached, please try again later"
+        "visitLimitReached": "The visit limit has been reached, please try again later",
+        "visitLimit": "Visit limit",
+        "visitLimitTip": "After the page reaches the visit limit, accounts will no longer be displayed. Leave blank for no limit",
+        "visitCount": "Number of visits"
     },
     "wrongPwd": "Password incorrect",
     "wrongCaptcha": "Captcha incorrect",
@@ -438,7 +442,8 @@
     "batchAdd": {
         "batchAdd": "Batch add",
         "success": "Batch addition completed, successfully added {:success} accounts",
-        "failed": "Batch addition completed, successfully added {:success} accounts, {:failed} accounts failed to add"
+        "failed": "Batch addition completed, successfully added {:success} accounts, {:failed} accounts failed to add",
+        "result": "Batch addition result"
     },
     "add": {
         "add": "Add",
@@ -528,7 +533,9 @@
             "num.require": "Please enter quantity",
             "num.integer": "Quantity format is incorrect",
             "num.gt": "Quantity must be greater than 0",
-            "showLink.require": "Please select whether to display the redeem link"
+            "showLink.require": "Please select whether to display the redeem link",
+            "visit_limit.integer": "Visit limit format is incorrect",
+            "visit_limit.egt": "Visit limit cannot be less than 0"
         },
         "sharePage": {
             "share_link.require": "Share link cannot be empty",
@@ -551,7 +558,9 @@
             "theme.require": "Template cannot be empty",
             "allow_unlock.require": "Allow unlock cannot be empty",
             "allow_unlock.boolean": "Allow unlock must be a boolean value",
-            "enable_cors.boolean": "Enable CORS must be a boolean value"
+            "enable_cors.boolean": "Enable CORS must be a boolean value",
+            "visit_limit.integer": "Visit limit format is incorrect",
+            "visit_limit.egt": "Visit limit cannot be less than 0"
         },
         "user": {
             "email.require": "Email cannot be empty",
