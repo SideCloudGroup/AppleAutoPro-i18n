@@ -117,7 +117,11 @@
         "enterNewAccountID": "请输入新的账号ID",
         "rentDeleteConfirm": "您确定要删除该租用吗？",
         "priceDataInvalid": "功能价格配置有误，请联系管理员处理",
-        "priceDataInvalidAdmin": "功能价格配置有误，请检查时间区间是否合法"
+        "priceDataInvalidAdmin": "功能价格配置有误，请检查时间区间是否合法",
+        "viewPrice": "查看价格",
+        "priceConfiguration": "价格配置表",
+        "notAvailable": "不可用",
+        "priceConfigNote": "以下为系统价格配置，实际费用以选择的功能计算为准"
     },
     "account": {
         "account": "账号",
@@ -187,7 +191,8 @@
         "fee": "账号费用",
         "perAccount": "每个账号",
         "feeDiff": "功能差价",
-        "accountList": "账号列表"
+        "accountList": "账号列表",
+        "enableFirst": "账号已被禁用，请先启用账号"
     },
     "emptyForNotUse": "不使用请留空",
     "remark": "备注",
@@ -265,7 +270,8 @@
         "viewDetail": "查看详情",
         "quickActions": "快捷操作",
         "reset": "重置",
-        "close": "关闭"
+        "close": "关闭",
+        "regenerate": "重新生成"
     },
     "wechat": "微信",
     "expire": "到期时间",
@@ -329,7 +335,9 @@
         "disableSelf": "不能禁用自己的账号",
         "downgradeSelf": "不能取消自己的管理员权限",
         "createTime": "创建时间",
-        "lastLogin": "最后登录"
+        "lastLogin": "最后登录",
+        "confirmRegenerateApiKey": "确定要重新生成API Key吗？旧的Key将失效",
+        "apiKeyRegenerated": "API Key重新生成成功"
     },
     "admin": "管理员",
     "unLicensed": "程序未授权",
@@ -667,8 +675,6 @@
         "enableFooterCopyrightDescription": "页脚文件可自定义。文件位于 /resources/view/footer.tpl",
         "defaultShareTemplate": "默认分享页模板名",
         "defaultShareTemplateDescription": "可将分享页模板放置到 /resources/view/share/theme 目录下",
-        "webdriver": "WebDriver",
-        "webdriverDescription": "Webdriver地址，末尾不要加斜杠。若公网IP无法使用，请使用docker内网IP。格式为 http://username:password@ip:port 详细请见教程",
         "enableProxyAutoDisable": "自动禁用无效代理",
         "enableProxyAutoDisableDescription": "当后端报告代理不可用时，自动禁用该代理",
         "shareExpireDays": "分享页过期时间（天）",
@@ -742,7 +748,18 @@
         "captchaCustomUrl": "自定义验证码API地址",
         "captchaCustomUrlDescription": "仅Cap驱动需要填写，其余留空即可",
         "showRegion": "显示账号地区",
-        "showRegionDescription": "在兑换分享页显示账号所属地区"
+        "showRegionDescription": "在兑换分享页显示账号所属地区",
+        "notifyPageLoadFail": "页面加载失败时通知",
+        "notifyPageLoadFailDescription": "当后端出现页面加载失败错误时，发送通知给用户",
+        "allowFailAccount": "允许显示检测失败的账号",
+        "allowFailAccountDescription": "启用后，如果系统中没有可用账号，分享页将显示上次检测失败的账号",
+        "backup": "备份",
+        "backupEnable": "启用数据库自动备份",
+        "backupEnableDescription": "定期备份数据库，以防数据丢失",
+        "backupDuration": "数据库备份间隔（分钟）",
+        "backupDurationDescription": "每隔N分钟备份一次数据库",
+        "backupCopies": "数据库备份保留份数",
+        "backupCopiesDescription": "仅保留最新的N份备份，多余的备份将被删除"
     },
     "queue": {
         "queueStatus": "队列状态",

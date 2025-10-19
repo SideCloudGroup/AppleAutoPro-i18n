@@ -116,7 +116,11 @@
         "enterNewAccountID": "Please enter the new account ID",
         "rentDeleteConfirm": "Are You Sure You Want to Delete This Rental?",
         "priceDataInvalid": "The function price configuration is incorrect. Please contact the administrator.",
-        "priceDataInvalidAdmin": "The function price configuration is incorrect. Please check if the time range is valid."
+        "priceDataInvalidAdmin": "The function price configuration is incorrect. Please check if the time range is valid.",
+        "viewPrice": "View Price",
+        "priceConfiguration": "Price Configuration Table",
+        "notAvailable": "Not Available",
+        "priceConfigNote": "The following are system price configurations, actual fees are calculated based on selected functions"
     },
     "account": {
         "account": "Account",
@@ -186,7 +190,8 @@
         "fee": "Account Fee",
         "perAccount": "Per Account",
         "feeDiff": "Price difference",
-        "accountList": "Account List"
+        "accountList": "Account List",
+        "enableFirst": "The account has been disabled, please enable the account first"
     },
     "emptyForNotUse": "Leave Empty if Not Using",
     "remark": "Remark",
@@ -264,7 +269,8 @@
         "viewDetail": "View Detail",
         "quickActions": "Quick Actions",
         "reset": "Reset",
-        "close": "Close"
+        "close": "Close",
+        "regenerate": "Regenerate"
     },
     "wechat": "WeChat",
     "expire": "Expiration Time",
@@ -328,7 +334,9 @@
         "disableSelf": "You cannot disable your own account",
         "downgradeSelf": "You cannot remove your own admin privileges",
         "createTime": "Creation Time",
-        "lastLogin": "Last Login"
+        "lastLogin": "Last Login",
+        "confirmRegenerateApiKey": "Are you sure you want to regenerate the API Key? The old key will become invalid.",
+        "apiKeyRegenerated": "API Key has been successfully regenerated"
     },
     "admin": "Administrator",
     "unLicensed": "Program Unlicensed",
@@ -663,8 +671,6 @@
         "enableFooterCopyrightDescription": "Footer file can be customized. Located at /resources/view/footer.tpl",
         "defaultShareTemplate": "Default Share Page Template Name",
         "defaultShareTemplateDescription": "Place share page templates in /resources/view/share/theme directory",
-        "webdriver": "WebDriver",
-        "webdriverDescription": "WebDriver address, do not add a trailing slash. Use Docker internal IP if public IP is unavailable. Format: http://username:password@ip:port. See tutorial for details.",
         "enableProxyAutoDisable": "Auto-disable Invalid Proxies",
         "enableProxyAutoDisableDescription": "Automatically disables proxies when backend reports them as unavailable.",
         "shareExpireDays": "Share Page Expiry Time (Days)",
@@ -737,7 +743,18 @@
         "captchaCustomUrl": "Custom Captcha API URL",
         "captchaCustomUrlDescription": "Only required for Cap driver, leave empty for others.",
         "showRegion": "Show account region",
-        "showRegionDescription": "Display the account region on the redeem share page"
+        "showRegionDescription": "Display the account region on the redeem share page",
+        "notifyPageLoadFail": "Notify when page load fails",
+        "notifyPageLoadFailDescription": "When the backend encounters a page load failure, a notification will be sent to the user",
+        "allowFailAccount": "Allow displaying accounts that failed checks",
+        "allowFailAccountDescription": "If enabled, when there are no available accounts, the share page will display accounts that failed the last check",
+        "backup": "Backup",
+        "backupEnable": "Enable automatic database backups",
+        "backupEnableDescription": "Regularly back up the database to prevent data loss",
+        "backupDuration": "Database backup interval (minutes)",
+        "backupDurationDescription": "Back up the database every N minutes",
+        "backupCopies": "Number of database backup copies to retain",
+        "backupCopiesDescription": "Keep only the latest N backups; older backups will be deleted"
     },
     "queue": {
         "queueStatus": "Queue Status",

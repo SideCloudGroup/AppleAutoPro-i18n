@@ -116,7 +116,11 @@
         "enterNewAccountID": "Vui lòng nhập ID tài khoản mới",
         "rentDeleteConfirm": "Bạn có chắc chắn muốn xóa tài khoản này không?",
         "priceDataInvalid": "Cấu hình giá tính năng không chính xác. Vui lòng liên hệ quản trị viên.",
-        "priceDataInvalidAdmin": "Cấu hình giá chức năng không hợp lệ. Vui lòng kiểm tra xem khoảng thời gian có hợp lệ không."
+        "priceDataInvalidAdmin": "Cấu hình giá chức năng không hợp lệ. Vui lòng kiểm tra xem khoảng thời gian có hợp lệ không.",
+        "viewPrice": "Xem giá",
+        "priceConfiguration": "Bảng cấu hình giá",
+        "notAvailable": "Không khả dụng",
+        "priceConfigNote": "Dưới đây là cấu hình giá hệ thống, phí thực tế được tính dựa trên chức năng đã chọn"
     },
     "account": {
         "account": "Tài khoản",
@@ -186,7 +190,8 @@
         "fee": "Phí",
         "perAccount": "Mỗi tài khoản",
         "feeDiff": "Chênh lệch giá",
-        "accountList": "Danh sách tài khoản"
+        "accountList": "Danh sách tài khoản",
+        "enableFirst": "Tài khoản đã bị vô hiệu hóa, vui lòng kích hoạt tài khoản trước"
     },
     "emptyForNotUse": "Để trống nếu không sử dụng",
     "remark": "Ghi chú",
@@ -264,7 +269,8 @@
         "viewDetail": "Xem chi tiết",
         "quickActions": "Hành động nhanh",
         "reset": "Đặt lại",
-        "close": "Đóng"
+        "close": "Đóng",
+        "regenerate": "Tạo lại"
     },
     "wechat": "WeChat",
     "expire": "Hết hạn",
@@ -328,7 +334,9 @@
         "disableSelf": "Không thể vô hiệu hóa tài khoản của chính bạn",
         "downgradeSelf": "Không thể hủy quyền quản trị viên của chính bạn",
         "createTime": "Thời gian tạo",
-        "lastLogin": "Đăng nhập lần cuối"
+        "lastLogin": "Đăng nhập lần cuối",
+        "confirmRegenerateApiKey": "Bạn có chắc chắn muốn tạo lại khóa API không? Khóa cũ sẽ không còn hiệu lực.",
+        "apiKeyRegenerated": "Khóa API đã được tạo lại thành công"
     },
     "admin": "Quản trị viên",
     "unLicensed": "Chưa được cấp phép",
@@ -664,8 +672,6 @@
         "enableFooterCopyrightDescription": "Tệp chân trang có thể tùy chỉnh. Nằm ở /resources/view/footer.tpl",
         "defaultShareTemplate": "Tên mẫu trang chia sẻ mặc định",
         "defaultShareTemplateDescription": "Đặt mẫu trang chia sẻ vào thư mục /resources/view/share/theme",
-        "webdriver": "WebDriver",
-        "webdriverDescription": "Địa chỉ WebDriver, không thêm dấu gạch chéo ở cuối. Nếu IP công cộng không sử dụng được, hãy dùng IP nội bộ của Docker. Định dạng: http://username:password@ip:port. Xem hướng dẫn chi tiết.",
         "enableProxyAutoDisable": "Tự động vô hiệu proxy không hợp lệ",
         "enableProxyAutoDisableDescription": "Tự động vô hiệu proxy khi backend báo không khả dụng.",
         "shareExpireDays": "Thời gian hết hạn trang chia sẻ (Ngày)",
@@ -739,7 +745,18 @@
         "captchaCustomUrl": "URL API Captcha Tùy chỉnh",
         "captchaCustomUrlDescription": "Chỉ cần thiết cho trình điều khiển Cap, để trống cho các trình điều khiển khác.",
         "showRegion": "Hiển thị khu vực tài khoản",
-        "showRegionDescription": "Hiển thị khu vực tài khoản trên trang chia sẻ đổi mã"
+        "showRegionDescription": "Hiển thị khu vực tài khoản trên trang chia sẻ đổi mã",
+        "notifyPageLoadFail": "Thông báo khi tải trang thất bại",
+        "notifyPageLoadFailDescription": "Khi backend gặp lỗi tải trang, sẽ gửi thông báo cho người dùng",
+        "allowFailAccount": "Cho phép hiển thị tài khoản kiểm tra thất bại",
+        "allowFailAccountDescription": "Khi bật, nếu hệ thống không có tài khoản khả dụng, trang chia sẻ sẽ hiển thị các tài khoản đã kiểm tra thất bại lần trước",
+        "backup": "Sao lưu cơ sở dữ liệu",
+        "backupEnable": "Bật sao lưu cơ sở dữ liệu tự động",
+        "backupEnableDescription": "Sao lưu định kỳ cơ sở dữ liệu để tránh mất dữ liệu",
+        "backupDuration": "Khoảng thời gian sao lưu cơ sở dữ liệu (phút)",
+        "backupDurationDescription": "Sao lưu cơ sở dữ liệu sau mỗi N phút",
+        "backupCopies": "Số bản sao lưu cơ sở dữ liệu được giữ lại",
+        "backupCopiesDescription": "Chỉ giữ lại N bản sao lưu mới nhất; các bản sao lưu cũ hơn sẽ bị xóa"
     },
     "queue": {
         "queueStatus": "Trạng thái hàng đợi",
