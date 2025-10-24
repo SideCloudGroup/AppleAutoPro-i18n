@@ -535,6 +535,7 @@
         "redeem": {
             "account_tag_id.require": "Vui lòng chọn nhãn tài khoản",
             "account_tag_id.integer": "Định dạng nhãn tài khoản không chính xác",
+            "account_tag_id.gt": "Nhãn tài khoản không được để trống",
             "duration.require": "Vui lòng nhập thời gian",
             "duration.integer": "Định dạng thời gian không chính xác",
             "duration.gt": "Thời gian phải lớn hơn 0",
@@ -758,7 +759,13 @@
         "backupDuration": "Khoảng thời gian sao lưu Database (phút)",
         "backupDurationDescription": "Sao lưu Database sau mỗi N phút",
         "backupCopies": "Số bản sao lưu Database được giữ lại",
-        "backupCopiesDescription": "Chỉ giữ lại N bản sao lưu mới nhất; các bản sao lưu cũ hơn sẽ bị xóa"
+        "backupCopiesDescription": "Chỉ giữ lại N bản sao lưu mới nhất; các bản sao lưu cũ hơn sẽ bị xóa",
+        "telegramAdminChatId": "ID Chat Telegram của quản trị viên",
+        "telegramAdminChatIdDescription": "Dùng để gửi thông báo hệ thống tới quản trị viên. Để trống để không kích hoạt thông báo Telegram.",
+        "telegramBotToken": "Mã Bot Telegram",
+        "telegramBotTokenDescription": "",
+        "sendBackupToTelegram": "Gửi sao lưu cơ sở dữ liệu tới Telegram",
+        "sendBackupToTelegramDescription": "Khi bật, tệp sao lưu cơ sở dữ liệu sẽ được gửi đến chat Telegram của quản trị viên."
     },
     "queue": {
         "queueStatus": "Trạng Thái Hàng Đợi",

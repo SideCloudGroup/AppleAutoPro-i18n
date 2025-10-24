@@ -309,7 +309,8 @@
         "lastUse": "上次使用",
         "typeAlertTitle": "代理类型说明",
         "typeAlertContent": "<div><strong>1. 身份验证格式：</strong><br>• 如需用户名密码，格式为：用户名:密码@IP:端口<br>• HTTP代理支持身份验证，SOCKS5代理暂不支持身份验证</div><div><strong>2. 代理提取API使用：</strong><br>• 选择代理类型：http+url 或 socks5+url<br>• 确保API提取数量为1<br>• API返回内容必须为纯代理地址，无其他内容</div><div><strong>3. 直接使用代理：</strong><br>• 选择http或socks5类型时，地址栏无需填写协议头<br>• 直接填写IP:端口即可</div>",
-        "allowTempDisable": "允许临时禁用"
+        "allowTempDisable": "允许临时禁用",
+        "emptySelect": "请先选择代理"
     },
     "version": {
         "current": "当前版本",
@@ -535,6 +536,7 @@
         "redeem": {
             "account_tag_id.require": "请选择账号标签",
             "account_tag_id.integer": "账号标签格式错误",
+            "account_tag_id.gt": "账号标签不能为空",
             "duration.require": "请填写时长",
             "duration.integer": "时长格式错误",
             "duration.gt": "时长必须大于0",
@@ -759,7 +761,13 @@
         "backupDuration": "数据库备份间隔（分钟）",
         "backupDurationDescription": "每隔N分钟备份一次数据库",
         "backupCopies": "数据库备份保留份数",
-        "backupCopiesDescription": "仅保留最新的N份备份，多余的备份将被删除"
+        "backupCopiesDescription": "仅保留最新的N份备份，多余的备份将被删除",
+        "telegramAdminChatId": "Telegram管理员Chat ID",
+        "telegramAdminChatIdDescription": "用于发送系统通知给管理员，留空则不启用Telegram通知",
+        "telegramBotToken": "Telegram机器人Token",
+        "telegramBotTokenDescription": "",
+        "sendBackupToTelegram": "发送数据库备份到Telegram",
+        "sendBackupToTelegramDescription": "启用后，数据库备份文件将发送到管理员的Telegram Chat中"
     },
     "queue": {
         "queueStatus": "队列状态",

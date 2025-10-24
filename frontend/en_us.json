@@ -308,7 +308,8 @@
         "lastUse": "Last Use",
         "typeAlertTitle": "Proxy type description",
         "typeAlertContent": "<div><strong>1. Authentication Format:</strong><br>• If username/password is required, format: username:password@IP:port<br>• HTTP proxies support authentication, SOCKS5 proxies do not support authentication</div><div><strong>2. Proxy Extraction API Usage:</strong><br>• Select proxy type: http+url or socks5+url<br>• Ensure API extraction quantity is 1<br>• API response must contain only proxy address, no other content</div><div><strong>3. Direct Proxy Usage:</strong><br>• When selecting http or socks5 type, no protocol prefix needed in address field<br>• Simply enter IP:port</div>",
-        "allowTempDisable": "Allow Temporary Disable"
+        "allowTempDisable": "Allow Temporary Disable",
+        "emptySelect": "Please select proxy first"
     },
     "version": {
         "current": "Current Version",
@@ -532,6 +533,7 @@
         "redeem": {
             "account_tag_id.require": "Please select account tag",
             "account_tag_id.integer": "Account tag format is incorrect",
+            "account_tag_id.gt": "Account tag cannot be empty",
             "duration.require": "Please enter duration",
             "duration.integer": "Duration format is incorrect",
             "duration.gt": "Duration must be greater than 0",
@@ -754,7 +756,13 @@
         "backupDuration": "Database backup interval (minutes)",
         "backupDurationDescription": "Back up the database every N minutes",
         "backupCopies": "Number of database backup copies to retain",
-        "backupCopiesDescription": "Keep only the latest N backups; older backups will be deleted"
+        "backupCopiesDescription": "Keep only the latest N backups; older backups will be deleted",
+        "telegramAdminChatId": "Telegram Admin Chat ID",
+        "telegramAdminChatIdDescription": "Used to send system notifications to the administrator. Leave empty to disable Telegram notifications.",
+        "telegramBotToken": "Telegram Bot Token",
+        "telegramBotTokenDescription": "",
+        "sendBackupToTelegram": "Send database backups to Telegram",
+        "sendBackupToTelegramDescription": "When enabled, database backup files will be sent to the administrator's Telegram chat."
     },
     "queue": {
         "queueStatus": "Queue Status",
