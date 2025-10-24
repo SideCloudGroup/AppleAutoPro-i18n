@@ -16,443 +16,443 @@ msgstr ""
 
 #: main.py:113
 msgid "调试模式已启用"
-msgstr ""
+msgstr "Chế Độ Gỡ Lỗi Đã Được Kích Hoạt"
 
 #: main.py:125
 msgid "请检查参数"
-msgstr ""
+msgstr "Vui Lòng Kiểm Tra Tham Số"
 
 #: main.py:286 main.py:289 main.py:295
 msgid "请求失败"
-msgstr ""
+msgstr "Yêu Cầu Thất Bại"
 
 #: main.py:305
 msgid "成功连接到Redis"
-msgstr ""
+msgstr "Kết Nối Redis Thành Công"
 
 #: main.py:313 main.py:316 main.py:2146
 msgid "无法连接到Redis"
-msgstr ""
+msgstr "Không Thể Kết Nối Redis"
 
 #: main.py:320
 msgid "无法获取Redis配置"
-msgstr ""
+msgstr "Không Thể Lấy Cấu Hình Redis"
 
 #: main.py:334
 msgid "无法从API获取任务"
-msgstr ""
+msgstr "Không Thể Lấy Nhiệm Vụ Từ API"
 
 #: main.py:345
 msgid "无法更新账户信息"
-msgstr ""
+msgstr "Không Thể Cập Nhật Thông Tin Tài Khoản"
 
 #: main.py:356
 msgid "无法禁用账户"
-msgstr ""
+msgstr "Không Thể Vô Hiệu Hóa Tài Khoản"
 
 #: main.py:366
 msgid "无法更新账号地区信息"
-msgstr ""
+msgstr "Không Thể Cập Nhật Thông Tin Khu Vực Tài Khoản"
 
 #: main.py:373
 msgid "无法上报代理错误"
-msgstr ""
+msgstr "Không Thể Báo Cáo Lỗi Proxy"
 
 #: main.py:380
 msgid "无法更新下次运行时间"
-msgstr ""
+msgstr "Không Thể Cập Nhật Thời Gian Chạy Tiếp Theo"
 
 #: main.py:452
 msgid "无法更新日志"
-msgstr ""
+msgstr "Không Thể Cập Nhật Nhật Ký"
 
 #: main.py:525
 msgid "无法从API获取代理"
-msgstr ""
+msgstr "Không Thể Lấy Proxy Từ API"
 
 #: main.py:529
 msgid "获取到代理"
-msgstr ""
+msgstr "Đã Lấy Được Proxy"
 
 #: main.py:533
 msgid "代理类型错误"
-msgstr ""
+msgstr "Loại Proxy Không Đúng"
 
 #: main.py:536
 msgid "正在使用代理"
-msgstr ""
+msgstr "Đang Sử Dụng Proxy"
 
 #: main.py:568
 msgid "无法保存错误页面截图"
-msgstr ""
+msgstr "Không Thể Lưu Ảnh Chụp Trang Lỗi"
 
 #: main.py:570
 msgid "已保存错误页面到容器中/app目录下error.html和error.png"
-msgstr ""
+msgstr "Đã Lưu Trang Lỗi Vào Thư Mục /app Trong Container: error.html Và error.png"
 
 #: main.py:572
 msgid "检测到苹果风控"
-msgstr ""
+msgstr "Phát Hiện Kiểm Soát Rủi Ro Của Apple"
 
 #: main.py:657 main.py:658 main.py:1908 main.py:1909
 msgid "WebDriver调用失败"
-msgstr ""
+msgstr "Gọi WebDriver Thất Bại"
 
 #: main.py:725 main.py:726 main.py:728 main.py:731 main.py:732 main.py:733
 #: main.py:742 main.py:744 main.py:745 main.py:1037 main.py:1038 main.py:1178
 #: main.py:1179
 msgid "页面加载失败"
-msgstr ""
+msgstr "Tải Trang Thất Bại"
 
 #: main.py:725
 msgid "请检查代理是否可用"
-msgstr ""
+msgstr "Vui Lòng Kiểm Tra Proxy Có Khả Dụng Không"
 
 #: main.py:742 main.py:745 main.py:860 main.py:861 main.py:1016 main.py:1018
 #: main.py:1019
 msgid "可能是服务器IP被封禁"
-msgstr ""
+msgstr "Có Thể IP Máy Chủ Bị Cấm"
 
 #: main.py:753 main.py:766 main.py:781
 msgid "无法获取验证码"
-msgstr ""
+msgstr "Không Thể Lấy Mã Xác Thực"
 
 #: main.py:770
 msgid "验证码图片格式错误"
-msgstr ""
+msgstr "Định Dạng Hình Ảnh Mã Xác Thực Không Đúng"
 
 #: main.py:776
 msgid "无法输入验证码"
-msgstr ""
+msgstr "Không Thể Nhập Mã Xác Thực"
 
 #: main.py:835 main.py:836 main.py:837 main.py:838 main.py:850 main.py:851
 #: main.py:853
 msgid "账号已被停用"
-msgstr ""
+msgstr "Tài Khoản Đã Bị Tạm Dừng"
 
 #: main.py:846
 msgid "登录成功"
-msgstr ""
+msgstr "Đăng Nhập Thành Công"
 
 #: main.py:855 main.py:856 main.py:858
 msgid "账号无效"
-msgstr ""
+msgstr "Tài Khoản Không Hợp Lệ"
 
 #: main.py:860 main.py:861 main.py:1016 main.py:1018 main.py:1019
 msgid "无法处理请求"
-msgstr ""
+msgstr "Không Thể Xử Lý Yêu Cầu"
 
 #: main.py:863 main.py:864 main.py:865 main.py:2038 main.py:2041 main.py:2042
 msgid "执行任务时遇到未知错误"
-msgstr ""
+msgstr "Gặp Lỗi Không Xác Định Khi Thực Hiện Nhiệm Vụ"
 
 #: main.py:876 main.py:879
 msgid "账号已被锁定"
-msgstr ""
+msgstr "Tài Khoản Đã Bị Khóa"
 
 #: main.py:892 main.py:894 main.py:895
 msgid "关闭二步验证失败"
-msgstr ""
+msgstr "Tắt Xác Thực Hai Bước Thất Bại"
 
 #: main.py:892 main.py:894 main.py:895
 msgid "账号不允许关闭2FA"
-msgstr ""
+msgstr "Tài Khoản Không Cho Phép Tắt 2FA"
 
 #: main.py:908 main.py:909 main.py:910 main.py:1371 main.py:1372 main.py:1373
 #: main.py:1425 main.py:1426
 msgid "操作被苹果拒绝，疑似被风控"
-msgstr ""
+msgstr "Thao Tác Bị Apple Từ Chối, Nghi Ngờ Bị Kiểm Soát Rủi Ro"
 
 #: main.py:932 main.py:933 main.py:934 main.py:935 main.py:971 main.py:972
 #: main.py:973 main.py:974
 msgid "选择选项失败，无法使用安全问题解锁"
-msgstr ""
+msgstr "Chọn Tùy Chọn Thất Bại, Không Thể Sử Dụng Câu Hỏi Bảo Mật Để Mở Khóa"
 
 #: main.py:954 main.py:956 main.py:957
 msgid "解锁失败，疑似被风控"
-msgstr ""
+msgstr "Mở Khóa Thất Bại, Nghi Ngờ Bị Kiểm Soát Rủi Ro"
 
 #: main.py:992
 msgid "开始登录账号"
-msgstr ""
+msgstr "Bắt Đầu Đăng Nhập Tài Khoản"
 
 #: main.py:1007 main.py:1008 main.py:1028 main.py:1029
 msgid "登录页面加载失败"
-msgstr ""
+msgstr "Tải Trang Đăng Nhập Thất Bại"
 
 #: main.py:1049 main.py:1989 main.py:1999 main.py:2009
 msgid "登陆失败"
-msgstr ""
+msgstr "Đăng Nhập Thất Bại"
 
 #: main.py:1082 main.py:1097 main.py:1098 main.py:1099 main.py:1349
 msgid "获取安全问题失败"
-msgstr ""
+msgstr "Lấy Câu Hỏi Bảo Mật Thất Bại"
 
 #: main.py:1089 main.py:1090 main.py:1091 main.py:1092 main.py:1326
 #: main.py:1327 main.py:1328 main.py:1329
 msgid "密保错误次数过多，稍后重试"
-msgstr ""
+msgstr "Sai Câu Hỏi Bảo Mật Quá Nhiều Lần, Vui Lòng Thử Lại Sau"
 
 #: main.py:1104 main.py:1105 main.py:1106 main.py:1355 main.py:1356
 #: main.py:1357
 msgid "未找到对应的安全问题答案"
-msgstr ""
+msgstr "Không Tìm Thấy Câu Trả Lời Câu Hỏi Bảo Mật Tương Ứng"
 
 #: main.py:1126 main.py:1127 main.py:1128 main.py:1129 main.py:1321
 #: main.py:1378 main.py:1379 main.py:1380 main.py:1381
 msgid "密保答案错误"
-msgstr ""
+msgstr "Câu Trả Lời Câu Hỏi Bảo Mật Sai"
 
 #: main.py:1134 main.py:1135 main.py:1136 main.py:1334 main.py:1335
 #: main.py:1387 main.py:1389
 msgid "无法使用密保"
-msgstr ""
+msgstr "Không Thể Sử Dụng Câu Hỏi Bảo Mật"
 
 #: main.py:1154
 msgid "登录AppleID失败"
-msgstr ""
+msgstr "Đăng Nhập AppleID Thất Bại"
 
 #: main.py:1172
 msgid "开始删除设备"
-msgstr ""
+msgstr "Bắt Đầu Xóa Thiết Bị"
 
 #: main.py:1186
 msgid "没有设备需要删除"
-msgstr ""
+msgstr "Không Có Thiết Bị Nào Cần Xóa"
 
 #: main.py:1189
 #, python-format
 msgid "共有%d个设备"
-msgstr ""
+msgstr "Tổng Cộng %d Thiết Bị"
 
 #: main.py:1202
 msgid "设备删除完毕"
-msgstr ""
+msgstr "Xóa Thiết Bị Hoàn Tất"
 
 #: main.py:1205
 msgid "删除设备失败"
-msgstr ""
+msgstr "Xóa Thiết Bị Thất Bại"
 
 #: main.py:1213
 msgid "未设置账号语言，仅检测"
-msgstr ""
+msgstr "Chưa Đặt Ngôn Ngữ Tài Khoản, Chỉ Kiểm Tra"
 
 #: main.py:1214
 msgid "开始更改语言"
-msgstr ""
+msgstr "Bắt Đầu Thay Đổi Ngôn Ngữ"
 
 #: main.py:1233
 msgid "语言更改成功"
-msgstr ""
+msgstr "Thay Đổi Ngôn Ngữ Thành Công"
 
 #: main.py:1237
 msgid "更改语言失败"
-msgstr ""
+msgstr "Thay Đổi Ngôn Ngữ Thất Bại"
 
 #: main.py:1251
 msgid "开始检测姓名"
-msgstr ""
+msgstr "Bắt Đầu Kiểm Tra Tên"
 
 #: main.py:1292
 msgid "姓名更改成功"
-msgstr ""
+msgstr "Thay Đổi Tên Thành Công"
 
 #: main.py:1297
 msgid "更改姓名失败"
-msgstr ""
+msgstr "Thay Đổi Tên Thất Bại"
 
 #: main.py:1319 main.py:1320 main.py:1322
 msgid "生日答案错误"
-msgstr ""
+msgstr "Câu Trả Lời Ngày Sinh Sai"
 
 #: main.py:1343 main.py:1344 main.py:1345
 msgid "生日错误"
-msgstr ""
+msgstr "Ngày Sinh Sai"
 
 #: main.py:1398 main.py:1399 main.py:1403
 msgid "密码框获取失败"
-msgstr ""
+msgstr "Lấy Ô Mật Khẩu Thất Bại"
 
 #: main.py:1418
 msgid "无法确认密码修改"
-msgstr ""
+msgstr "Không Thể Xác Nhận Thay Đổi Mật Khẩu"
 
 #: main.py:1432
 msgid "密码修改成功"
-msgstr ""
+msgstr "Thay Đổi Mật Khẩu Thành Công"
 
 #: main.py:1432
 msgid "新密码："
-msgstr ""
+msgstr "Mật Khẩu Mới:"
 
 #: main.py:1438
 msgid "开始更改密码"
-msgstr ""
+msgstr "Bắt Đầu Thay Đổi Mật Khẩu"
 
 #: main.py:1445 main.py:1447 main.py:1448
 msgid "无法修改密码，可能是二步验证关闭失败"
-msgstr ""
+msgstr "Không Thể Thay Đổi Mật Khẩu, Có Thể Tắt Xác Thực Hai Bước Thất Bại"
 
 #: main.py:1464 main.py:1466
 msgid "无法使用安全问题重设密码"
-msgstr ""
+msgstr "Không Thể Sử Dụng Câu Hỏi Bảo Mật Để Đặt Lại Mật Khẩu"
 
 #: main.py:1496
 msgid "跳过双重验证失败"
-msgstr ""
+msgstr "Bỏ Qua Xác Thực Hai Bước Thất Bại"
 
 #: main.py:1550 main.py:1563
 msgid "检测AppStore状态时登陆失败"
-msgstr ""
+msgstr "Đăng Nhập Thất Bại Khi Kiểm Tra Trạng Thái AppStore"
 
 #: main.py:1577 main.py:1578 main.py:1579
 msgid "登陆AppStore失败"
-msgstr ""
+msgstr "Đăng Nhập AppStore Thất Bại"
 
 #: main.py:1586
 msgid "开始更改地区"
-msgstr ""
+msgstr "Bắt Đầu Thay Đổi Khu Vực"
 
 #: main.py:1601 main.py:1604 main.py:1709
 msgid "更改地区失败"
-msgstr ""
+msgstr "Thay Đổi Khu Vực Thất Bại"
 
 #: main.py:1602 main.py:1604
 msgid "请检查账号是否存在订阅项目"
-msgstr ""
+msgstr "Vui Lòng Kiểm Tra Tài Khoản Có Tồn Tại Gói Đăng Ký Không"
 
 #: main.py:1608
 msgid "暂不支持所选地区"
-msgstr ""
+msgstr "Tạm Thời Không Hỗ Trợ Khu Vực Đã Chọn"
 
 #: main.py:1726 main.py:1727 main.py:1728
 msgid "已请求访问账号"
-msgstr ""
+msgstr "Đã Yêu Cầu Truy Cập Tài Khoản"
 
 #: main.py:1736
 msgid "开始移除丢失模式"
-msgstr ""
+msgstr "Bắt Đầu Gỡ Bỏ Chế Độ Mất"
 
 #: main.py:1819
 msgid "解除丢失成功"
-msgstr ""
+msgstr "Gỡ Bỏ Chế Độ Mất Thành Công"
 
 #: main.py:1823
 msgid "移除丢失模式失败"
-msgstr ""
+msgstr "Gỡ Bỏ Chế Độ Mất Thất Bại"
 
 #: main.py:1834 main.py:1843
 msgid "无法获取当前IP"
-msgstr ""
+msgstr "Không Thể Lấy IP Hiện Tại"
 
 #: main.py:1863
 msgid "Telegram发送消息失败"
-msgstr ""
+msgstr "Gửi Tin Nhắn Telegram Thất Bại"
 
 #: main.py:1872
 msgid "WebHook请求失败"
-msgstr ""
+msgstr "Yêu Cầu WebHook Thất Bại"
 
 #: main.py:1878
 msgid "微信通知发送失败"
-msgstr ""
+msgstr "Gửi Thông Báo WeChat Thất Bại"
 
 #: main.py:1881
 msgid "正常"
-msgstr ""
+msgstr "Bình Thường"
 
 #: main.py:1882 main.py:1924 main.py:1952 main.py:1960 main.py:1977
 msgid "账号信息更新成功"
-msgstr ""
+msgstr "Cập Nhật Thông Tin Tài Khoản Thành Công"
 
 #: main.py:1885
 msgid "账号信息更新失败"
-msgstr ""
+msgstr "Cập Nhật Thông Tin Tài Khoản Thất Bại"
 
 #: main.py:1898
 msgid "使用邮件解锁2FA失败"
-msgstr ""
+msgstr "Sử Dụng Email Mở Khóa 2FA Thất Bại"
 
 #: main.py:1924 main.py:1952 main.py:1960 main.py:1977
 msgid "新密码"
-msgstr ""
+msgstr "Mật Khẩu Mới"
 
 #: main.py:1929
 msgid "解锁失败"
-msgstr ""
+msgstr "Mở Khóa Thất Bại"
 
 #: main.py:1935
 msgid "检测到账号开启双重认证，开始解锁"
-msgstr ""
+msgstr "Phát Hiện Tài Khoản Bật Xác Thực Hai Bước, Bắt Đầu Mở Khóa"
 
 #: main.py:1938
 msgid "检测到账号被锁定，开始解锁"
-msgstr ""
+msgstr "Phát Hiện Tài Khoản Bị Khóa, Bắt Đầu Mở Khóa"
 
 #: main.py:1942
 msgid "账号检测完毕"
-msgstr ""
+msgstr "Kiểm Tra Tài Khoản Hoàn Tất"
 
 #: main.py:1957
 msgid "开始修改密码"
-msgstr ""
+msgstr "Bắt Đầu Sửa Đổi Mật Khẩu"
 
 #: main.py:1962 main.py:1979
 msgid "修改密码失败"
-msgstr ""
+msgstr "Sửa Đổi Mật Khẩu Thất Bại"
 
 #: main.py:1972
 msgid "密码错误，开始修改密码"
-msgstr ""
+msgstr "Mật Khẩu Sai, Bắt Đầu Sửa Đổi Mật Khẩu"
 
 #: main.py:2014 main.py:2015 main.py:2016
 msgid "检测地区失败"
-msgstr ""
+msgstr "Kiểm Tra Khu Vực Thất Bại"
 
 #: main.py:2021 main.py:2023
 msgid "地区修改成功"
-msgstr ""
+msgstr "Sửa Đổi Khu Vực Thành Công"
 
 #: main.py:2025
 msgid "地区修改失败"
-msgstr ""
+msgstr "Sửa Đổi Khu Vực Thất Bại"
 
 #: main.py:2028
 msgid "开始检测AppStore状态"
-msgstr ""
+msgstr "Bắt Đầu Kiểm Tra Trạng Thái AppStore"
 
 #: main.py:2061
 msgid "程序未授权"
-msgstr ""
+msgstr "Chương Trình Chưa Được Cấp Phép"
 
 #: main.py:2065
 msgid "任务已被禁用"
-msgstr ""
+msgstr "Nhiệm Vụ Đã Bị Vô Hiệu Hóa"
 
 #: main.py:2068
 msgid "当前账号"
-msgstr ""
+msgstr "Tài Khoản Hiện Tại"
 
 #: main.py:2071
 msgid "任务执行完毕"
-msgstr ""
+msgstr "Thực Hiện Nhiệm Vụ Hoàn Tất"
 
 #: main.py:2074
 msgid "后端被中断"
-msgstr ""
+msgstr "Backend Bị Gián Đoạn"
 
 #: main.py:2083 main.py:2085
 msgid "任务执行超时"
-msgstr ""
+msgstr "Thực Hiện Nhiệm Vụ Quá Thời Gian"
 
 #: main.py:2112
 msgid "任务执行成功"
-msgstr ""
+msgstr "Thực Hiện Nhiệm Vụ Thành Công"
 
 #: main.py:2141
 msgid "启动AppleAutoPro"
-msgstr ""
+msgstr "Khởi Động AppleAutoPro"
 
 #: main.py:2152
 msgid "获取任务队列失败"
-msgstr ""
+msgstr "Lấy Hàng Đợi Nhiệm Vụ Thất Bại"
