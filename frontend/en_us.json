@@ -782,5 +782,10 @@
         "content": "Content",
         "restartSuccess": "Task restart successful",
         "restartPartialSuccess": "(%d successful, %d failed)"
+    },
+    "db": {
+        "migrationStatus": "Database migration status",
+        "upgradeAvailable": "Database upgrade available",
+        "latest": "Database is up to date"
     }
 }

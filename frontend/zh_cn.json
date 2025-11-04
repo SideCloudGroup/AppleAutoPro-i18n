@@ -787,5 +787,10 @@
         "content": "内容",
         "restartSuccess": "任务重启成功",
         "restartPartialSuccess": "(%d 个成功，%d 个失败)"
+    },
+    "db": {
+        "migrationStatus": "数据库迁移状态",
+        "upgradeAvailable": "有可用的数据库升级",
+        "latest": "数据库已是最新版本"
     }
 }

@@ -785,5 +785,10 @@
         "content": "Nội Dung",
         "restartSuccess": "Khởi Động Lại Nhiệm Vụ Thành Công",
         "restartPartialSuccess": "(%d Thành Công, %d Thất Bại)"
+    },
+    "db": {
+        "migrationStatus": "Trạng thái di chuyển cơ sở dữ liệu",
+        "upgradeAvailable": "Có bản nâng cấp cơ sở dữ liệu",
+        "latest": "Cơ sở dữ liệu đã là phiên bản mới nhất"
     }
 }
