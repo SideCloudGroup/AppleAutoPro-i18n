@@ -786,6 +786,24 @@
         "restartSuccess": "Khởi Động Lại Nhiệm Vụ Thành Công",
         "restartPartialSuccess": "(%d Thành Công, %d Thất Bại)"
     },
+    "worker": {
+        "monitor": "Giám Sát Worker",
+        "onlineWorkers": "Worker Trực Tuyến",
+        "running": "Đang Chạy",
+        "idle": "Nhàn Rỗi",
+        "loadRate": "Tỷ Lệ Tải",
+        "systemLoad": "Tải Hệ Thống",
+        "status": "Trạng Thái",
+        "containerId": "ID Container",
+        "hostname": "Tên Máy Chủ",
+        "version": "Phiên Bản",
+        "currentTask": "Nhiệm Vụ Hiện Tại",
+        "startTime": "Thời Gian Khởi Động",
+        "lastUpdate": "Cập Nhật Lần Cuối",
+        "refresh": "Làm Mới",
+        "noWorkers": "Không có worker trực tuyến",
+        "workers": "Workers"
+    },
     "db": {
         "migrationStatus": "Trạng thái di chuyển cơ sở dữ liệu",
         "upgradeAvailable": "Có bản nâng cấp cơ sở dữ liệu",

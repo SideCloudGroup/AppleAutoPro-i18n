@@ -783,6 +783,24 @@
         "restartSuccess": "Task restart successful",
         "restartPartialSuccess": "(%d successful, %d failed)"
     },
+    "worker": {
+        "monitor": "Worker Monitor",
+        "onlineWorkers": "Online Workers",
+        "running": "Running",
+        "idle": "Idle",
+        "loadRate": "Load Rate",
+        "systemLoad": "System Load",
+        "status": "Status",
+        "containerId": "Container ID",
+        "hostname": "Hostname",
+        "version": "Version",
+        "currentTask": "Current Task",
+        "startTime": "Start Time",
+        "lastUpdate": "Last Update",
+        "refresh": "Refresh",
+        "noWorkers": "No online workers",
+        "workers": "Workers"
+    },
     "db": {
         "migrationStatus": "Database migration status",
         "upgradeAvailable": "Database upgrade available",

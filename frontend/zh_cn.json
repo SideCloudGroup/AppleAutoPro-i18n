@@ -788,6 +788,24 @@
         "restartSuccess": "任务重启成功",
         "restartPartialSuccess": "(%d 个成功，%d 个失败)"
     },
+    "worker": {
+        "monitor": "Worker 监控",
+        "onlineWorkers": "在线Worker",
+        "running": "运行中",
+        "idle": "空闲",
+        "loadRate": "负载率",
+        "systemLoad": "系统负载",
+        "status": "状态",
+        "containerId": "Container ID",
+        "hostname": "主机名",
+        "version": "版本",
+        "currentTask": "当前任务",
+        "startTime": "启动时间",
+        "lastUpdate": "最后更新",
+        "refresh": "刷新",
+        "noWorkers": "暂无在线Worker",
+        "workers": "Workers"
+    },
     "db": {
         "migrationStatus": "数据库迁移状态",
         "upgradeAvailable": "有可用的数据库升级",
