@@ -309,7 +309,9 @@
         "typeAlertTitle": "Proxy type description",
         "typeAlertContent": "<div><strong>1. Authentication Format:</strong><br>• If username/password is required, format: username:password@IP:port<br>• HTTP proxies support authentication, SOCKS5 proxies do not support authentication</div><div><strong>2. Proxy Extraction API Usage:</strong><br>• Select proxy type: http+url or socks5+url<br>• Ensure API extraction quantity is 1<br>• API response must contain only proxy address, no other content</div><div><strong>3. Direct Proxy Usage:</strong><br>• When selecting http or socks5 type, no protocol prefix needed in address field<br>• Simply enter IP:port</div>",
         "allowTempDisable": "Allow Temporary Disable",
-        "emptySelect": "Please select proxy first"
+        "emptySelect": "Please select proxy first",
+        "multiplier": "Multiplier",
+        "multiplierTip": "Relative weight for random selection; higher means more likely (1-100)."
     },
     "version": {
         "current": "Current Version",
@@ -477,6 +479,25 @@
         "emailCode": "Email verification code",
         "codeLimit": "The verification code is being sent too frequently. Please try again later."
     },
+    "emailLang": {
+        "codePreheader": "Email Verification Code",
+        "codeTitle": "Email Verification Code",
+        "codeGreeting": "Dear User,",
+        "codeDescription": "You are requesting an email verification code. Please use the following code to continue your operation:",
+        "codeFooter": "If you did not request a verification code, please ignore this email or contact support.",
+        "sendComplete": "Email sent successfully",
+        "sendFailed": "Email sending failed",
+        "redeemPreheader": "Redemption Code Result",
+        "redeemTitle": "Redemption Successful",
+        "redeemGreeting": "Congratulations!",
+        "redeemDescription": "Your redemption code has been successfully redeemed. Here is your account information:",
+        "redeemAccount": "Account",
+        "redeemPassword": "Password",
+        "redeemShareLink": "Share Page Link",
+        "redeemExpireTime": "Expiration Time",
+        "redeemFooter": "Please keep your account information safe. If you have any questions, please contact support.",
+        "redeemVisitButton": "Visit Share Page"
+    },
     "validate": {
         "account": {
             "username.require": "Username cannot be empty",
@@ -520,7 +541,9 @@
             "content.require": "Content cannot be empty",
             "status.require": "Status identifier cannot be empty",
             "status.boolean": "Status identifier must be a boolean value",
-            "temp_disable_enabled.require": "Temporary disable option cannot be empty"
+            "temp_disable_enabled.require": "Temporary disable option cannot be empty",
+            "multiplier.integer": "Multiplier must be an integer",
+            "multiplier.between": "Multiplier must be between 1 and 100"
         },
         "generateTopupCode": {
             "amount.require": "Please enter amount",
@@ -643,6 +666,7 @@
         "MAC": "Macao",
         "RUS": "Russia",
         "SGP": "Singapore",
+        "MYS": "Malaysia",
         "KOR": "South Korea",
         "TWN": "Taiwan",
         "THA": "Thailand",
@@ -709,6 +733,8 @@
         "currencySignDescription": "",
         "enableEpay": "Enable Epay",
         "enableEpayDescription": "",
+        "epayDisplayName": "Epay Display Name",
+        "epayDisplayNameDescription": "",
         "epayUrl": "Epay API URL",
         "epayUrlDescription": "",
         "epayPid": "Epay Merchant ID",
@@ -719,12 +745,16 @@
         "epayUseApiDescription": "Default to redirect payment. If your Epay supports API, you can try enabling this option.",
         "enableEpusdt": "Enable Epusdt",
         "enableEpusdtDescription": "",
+        "epusdtDisplayName": "Epusdt Display Name",
+        "epusdtDisplayNameDescription": "",
         "epusdtUrl": "Epusdt API URL",
         "epusdtUrlDescription": "",
         "epusdtKey": "Epusdt Key",
         "epusdtKeyDescription": "",
         "enableAlipay": "Enable Alipay Face-to-Face Payment",
         "enableAlipayDescription": "",
+        "alipayDisplayName": "Alipay Display Name",
+        "alipayDisplayNameDescription": "",
         "alipayAppId": "Alipay App ID",
         "alipayAppIdDescription": "",
         "alipayPublicKey": "Alipay Public Key",

@@ -309,7 +309,9 @@
         "lastUse": "Sử Dụng Lần Cuối",
         "typeAlertTitle": "Mô Tả Loại Proxy",
         "typeAlertContent": "<div><strong>1. Định Dạng Xác Thực:</strong><br>• Nếu cần tên đăng nhập/mật khẩu, định dạng: tênđăngnhập:mậtkhẩu@IP:cổng<br>• Proxy HTTP hỗ trợ xác thực, Proxy SOCKS5 không hỗ trợ xác thực</div><div><strong>2. Sử Dụng API Trích Xuất Proxy:</strong><br>• Chọn loại Proxy: http+url hoặc socks5+url<br>• Đảm bảo số lượng trích xuất API là 1<br>• Phản hồi API phải chỉ chứa địa chỉ Proxy, không có nội dung khác</div><div><strong>3. Sử Dụng Proxy Trực Tiếp:</strong><br>• Khi chọn loại http hoặc socks5, không cần tiền tố giao thức trong trường địa chỉ<br>• Chỉ cần nhập IP:cổng</div>",
-        "allowTempDisable": "Cho Phép Tạm Thời Vô Hiệu Hóa"
+        "allowTempDisable": "Cho Phép Tạm Thời Vô Hiệu Hóa",
+        "multiplier": "Hệ số",
+        "multiplierTip": "Trọng số tương đối khi chọn ngẫu nhiên; giá trị lớn thì ưu tiên hơn (1-100)."
     },
     "version": {
         "current": "Phiên Bản Hiện Tại",
@@ -479,6 +481,25 @@
         "emailCode": "Mã Xác Nhận",
         "codeLimit": "Mã Xác Nhận Đã Được Gửi, Vui Lòng Kiểm Tra Email"
     },
+    "emailLang": {
+        "codePreheader": "Mã Xác Minh Email",
+        "codeTitle": "Mã Xác Minh Email",
+        "codeGreeting": "Kính gửi Quý khách,",
+        "codeDescription": "Bạn đang yêu cầu mã xác minh email. Vui lòng sử dụng mã sau để tiếp tục thao tác của bạn:",
+        "codeFooter": "Nếu bạn không yêu cầu mã xác minh, vui lòng bỏ qua email này hoặc liên hệ bộ phận hỗ trợ.",
+        "sendComplete": "Email Đã Được Gửi Thành Công",
+        "sendFailed": "Gửi Email Thất Bại",
+        "redeemPreheader": "Kết Quả Đổi Mã",
+        "redeemTitle": "Đổi Mã Thành Công",
+        "redeemGreeting": "Chúc mừng!",
+        "redeemDescription": "Mã đổi của bạn đã được đổi thành công. Dưới đây là thông tin tài khoản của bạn:",
+        "redeemAccount": "Tài Khoản",
+        "redeemPassword": "Mật Khẩu",
+        "redeemShareLink": "Liên Kết Trang Chia Sẻ",
+        "redeemExpireTime": "Thời Gian Hết Hạn",
+        "redeemFooter": "Vui lòng giữ thông tin tài khoản của bạn an toàn. Nếu có bất kỳ câu hỏi nào, vui lòng liên hệ bộ phận hỗ trợ.",
+        "redeemVisitButton": "Truy Cập Trang Chia Sẻ"
+    },
     "validate": {
         "account": {
             "username.require": "Tên người dùng không được để trống",
@@ -522,7 +543,9 @@
             "content.require": "Nội dung không được để trống",
             "status.require": "Trạng thái không được để trống",
             "status.boolean": "Trạng thái phải là giá trị boolean",
-            "temp_disable_enabled.require": "Tùy chọn vô hiệu hóa tạm thời không được để trống"
+            "temp_disable_enabled.require": "Tùy chọn vô hiệu hóa tạm thời không được để trống",
+            "multiplier.integer": "Hệ số phải là số nguyên",
+            "multiplier.between": "Hệ số phải trong khoảng 1 đến 100"
         },
         "generateTopupCode": {
             "amount.require": "Vui lòng nhập số tiền",
@@ -645,6 +668,7 @@
         "MAC": "🇲🇴 Ma Cao",
         "RUS": "🇷🇺 Nga",
         "SGP": "🇸🇬 Singapore",
+        "MYS": "🇲🇾 Malaysia",
         "KOR": "🇰🇷 Hàn Quốc",
         "TWN": "🇹🇼 Đài Loan",
         "THA": "🇹🇭 Thái Lan",
@@ -711,6 +735,8 @@
         "currencySignDescription": "",
         "enableEpay": "Bật Epay",
         "enableEpayDescription": "",
+        "epayDisplayName": "Tên hiển thị Epay",
+        "epayDisplayNameDescription": "",
         "epayUrl": "Địa chỉ API Epay",
         "epayUrlDescription": "",
         "epayPid": "Mã thương gia Epay",
@@ -721,12 +747,16 @@
         "epayUseApiDescription": "Mặc định sử dụng thanh toán chuyển hướng. Nếu Epay của bạn hỗ trợ API, bạn có thể thử bật tùy chọn này.",
         "enableEpusdt": "Bật Epusdt",
         "enableEpusdtDescription": "",
+        "epusdtDisplayName": "Tên hiển thị Epusdt",
+        "epusdtDisplayNameDescription": "",
         "epusdtUrl": "Địa chỉ API Epusdt",
         "epusdtUrlDescription": "",
         "epusdtKey": "Khóa Epusdt",
         "epusdtKeyDescription": "",
         "enableAlipay": "Bật thanh toán Alipay trực tiếp",
         "enableAlipayDescription": "",
+        "alipayDisplayName": "Tên hiển thị Alipay",
+        "alipayDisplayNameDescription": "",
         "alipayAppId": "App ID Alipay",
         "alipayAppIdDescription": "",
         "alipayPublicKey": "Khóa công khai Alipay",
