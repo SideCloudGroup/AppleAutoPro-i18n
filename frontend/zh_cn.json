@@ -267,6 +267,7 @@
         "selectAll": "全选",
         "deselectAll": "取消全选",
         "notSelected": "未选择",
+        "all": "全部",
         "unknowAction": "未知操作",
         "confirmBatchAction": "您确定要批量操作吗？",
         "rent": "租用",
@@ -803,7 +804,8 @@
         "telegramBotToken": "Telegram机器人Token",
         "telegramBotTokenDescription": "",
         "sendBackupToTelegram": "发送数据库备份到Telegram",
-        "sendBackupToTelegramDescription": "启用后，数据库备份文件将发送到管理员的Telegram Chat中"
+        "sendBackupToTelegramDescription": "启用后，数据库备份文件将发送到管理员的Telegram Chat中",
+        "backupTelegramCaption": "来自{:name}的自动备份"
     },
     "queue": {
         "queueStatus": "队列状态",
@@ -846,5 +848,8 @@
         "migrationStatus": "数据库迁移状态",
         "upgradeAvailable": "有可用的数据库升级",
         "latest": "数据库已是最新版本"
+    },
+    "loginRecord": {
+        "title": "登录记录"
     }
 }

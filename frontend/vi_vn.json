@@ -261,6 +261,7 @@
         "selectAll": "Chọn Tất Cả",
         "deselectAll": "Bỏ Chọn Tất Cả",
         "notSelected": "Chưa Chọn",
+        "all": "Tất Cả",
         "unknowAction": "Hành Động Không Xác Định",
         "confirmBatchAction": "Bạn có chắc chắn muốn thực hiện hành động hàng loạt không?",
         "rent": "Thuê",
@@ -795,7 +796,8 @@
         "telegramBotToken": "Mã Bot Telegram",
         "telegramBotTokenDescription": "",
         "sendBackupToTelegram": "Gửi sao lưu cơ sở dữ liệu tới Telegram",
-        "sendBackupToTelegramDescription": "Khi bật, tệp sao lưu cơ sở dữ liệu sẽ được gửi đến chat Telegram của quản trị viên."
+        "sendBackupToTelegramDescription": "Khi bật, tệp sao lưu cơ sở dữ liệu sẽ được gửi đến chat Telegram của quản trị viên.",
+        "backupTelegramCaption": "Sao lưu tự động từ {:name}"
     },
     "queue": {
         "queueStatus": "Trạng Thái Hàng Đợi",
@@ -838,5 +840,8 @@
         "migrationStatus": "Trạng thái di chuyển cơ sở dữ liệu",
         "upgradeAvailable": "Có bản nâng cấp cơ sở dữ liệu",
         "latest": "Cơ sở dữ liệu đã là phiên bản mới nhất"
+    },
+    "loginRecord": {
+        "title": "Lịch Sử Đăng Nhập"
     }
 }

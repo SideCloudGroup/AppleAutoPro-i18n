@@ -260,6 +260,7 @@
         "selectAll": "Select All",
         "deselectAll": "Deselect All",
         "notSelected": "Not Selected",
+        "all": "All",
         "unknowAction": "Unknown Action",
         "confirmBatchAction": "Are you sure you want to perform batch action?",
         "rent": "Rent",
@@ -792,7 +793,8 @@
         "telegramBotToken": "Telegram Bot Token",
         "telegramBotTokenDescription": "",
         "sendBackupToTelegram": "Send database backups to Telegram",
-        "sendBackupToTelegramDescription": "When enabled, database backup files will be sent to the administrator's Telegram chat."
+        "sendBackupToTelegramDescription": "When enabled, database backup files will be sent to the administrator's Telegram chat.",
+        "backupTelegramCaption": "Automatic backup from {:name}"
     },
     "queue": {
         "queueStatus": "Queue Status",
@@ -835,5 +837,8 @@
         "migrationStatus": "Database migration status",
         "upgradeAvailable": "Database upgrade available",
         "latest": "Database is up to date"
+    },
+    "loginRecord": {
+        "title": "Login Records"
     }
 }
