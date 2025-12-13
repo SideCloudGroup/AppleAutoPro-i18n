@@ -192,7 +192,11 @@
         "perAccount": "Mỗi Tài Khoản",
         "feeDiff": "Chênh Lệch Giá",
         "accountList": "Danh Sách Tài Khoản",
-        "enableFirst": "Tài Khoản Đã Bị Vô Hiệu Hóa, Vui Lòng Kích Hoạt Trước"
+        "enableFirst": "Tài Khoản Đã Bị Vô Hiệu Hóa, Vui Lòng Kích Hoạt Trước",
+        "autoManageRescueEmail": "Tự Động Quản Lý Email Cứu Hộ",
+        "autoManageRescueEmailTip": "Khi đã thiết lập mở khóa email trong thông tin người dùng và điền tên miền gốc, việc bật tính năng này sẽ tự động quản lý địa chỉ email cứu hộ của tài khoản. Hệ thống sẽ tạo một chuỗi ngẫu nhiên 8 ký tự@tên miền gốc làm địa chỉ email cứu hộ cho mỗi tài khoản.",
+        "rescueEmailAddress": "Địa Chỉ Email Cứu Hộ",
+        "rescueEmailDomainNotSet": "Vui lòng đặt tên miền email cứu hộ trong cài đặt cá nhân trước"
     },
     "emptyForNotUse": "Để trống nếu không sử dụng",
     "remark": "Ghi chú",
@@ -206,6 +210,7 @@
         "success": "Đổi Thành Công, Đang Chuyển Đến Trang Tài Khoản",
         "add": "Thêm Mã Đổi",
         "goto": "Đi Đến Trang Đổi",
+        "gotoEmailRedeem": "Đi Đến Trang Đổi Email",
         "duration": "Thời Lượng Sử Dụng (Phút)",
         "usedTime": "Thời Gian Sử Dụng",
         "generate": "Tạo Mã Đổi",
@@ -258,6 +263,8 @@
         "batchDisable": "Tắt Hàng Loạt",
         "batchDelete": "Xóa Hàng Loạt",
         "batchExport": "Xuất Hàng Loạt",
+        "batchEnableRescueEmail": "Bật Quản Lý Email Cứu Hộ Hàng Loạt",
+        "batchDisableRescueEmail": "Tắt Quản Lý Email Cứu Hộ Hàng Loạt",
         "selectAll": "Chọn Tất Cả",
         "deselectAll": "Bỏ Chọn Tất Cả",
         "notSelected": "Chưa Chọn",
@@ -335,6 +342,7 @@
         "usernameAlreadyExist": "Tên Người Dùng Đã Tồn Tại",
         "emailAlreadyExist": "Email Đã Tồn Tại",
         "emailUnlockUrl": "Liên Kết Mở Khóa Email",
+        "rescueEmailDomain": "Tên Miền Email Cứu Hộ",
         "disableSelf": "Không Thể Vô Hiệu Hóa Tài Khoản Của Chính Bạn",
         "downgradeSelf": "Không Thể Hủy Quyền Quản Trị Viên Của Chính Bạn",
         "createTime": "Thời Gian Tạo",
@@ -611,7 +619,8 @@
             "balance.float": "Số dư phải là số",
             "status.boolean": "Trạng thái phải là giá trị boolean",
             "balance.egt": "Số dư không được nhỏ hơn 0",
-            "balance.elt": "Số dư không được lớn hơn 99999999.99"
+            "balance.elt": "Số dư không được lớn hơn 99999999.99",
+            "rescue_email_domain.activeUrl": "Tên miền email cứu hộ không hợp lệ hoặc không thể truy cập"
         },
         "userLogin": {
             "username.require": "Tên đăng nhập không được để trống",
@@ -843,5 +852,9 @@
     },
     "loginRecord": {
         "title": "Lịch Sử Đăng Nhập"
+    },
+    "link": {
+        "emailUnlockTutorial": "https://appleauto.pro/docs/others/email-unlock.html",
+        "webhookDoc": "https://appleauto.pro/en/docs/api/webhook.html"
     }
 }

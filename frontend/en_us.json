@@ -191,7 +191,11 @@
         "perAccount": "Per Account",
         "feeDiff": "Price difference",
         "accountList": "Account List",
-        "enableFirst": "The account has been disabled, please enable the account first"
+        "enableFirst": "The account has been disabled, please enable the account first",
+        "autoManageRescueEmail": "Auto Manage Rescue Email",
+        "autoManageRescueEmailTip": "When email unlock is set in user information and the root domain is filled in, enabling this feature will automatically manage the account's rescue email address. The system will generate an 8-character random string@root domain rescue email address for each account.",
+        "rescueEmailAddress": "Rescue Email Address",
+        "rescueEmailDomainNotSet": "Please set the rescue email domain in personal settings first"
     },
     "emptyForNotUse": "Leave Empty if Not Using",
     "remark": "Remark",
@@ -205,6 +209,7 @@
         "success": "Redeem Successful, Redirecting to Account Page",
         "add": "Add Redeem Code",
         "goto": "Go to Redeem Page",
+        "gotoEmailRedeem": "Go to Email Redeem Page",
         "duration": "Usable Duration (minutes)",
         "usedTime": "Used Time",
         "generate": "Generate Redeem Code",
@@ -257,6 +262,8 @@
         "batchDisable": "Batch Disable",
         "batchDelete": "Batch Delete",
         "batchExport": "Batch Export",
+        "batchEnableRescueEmail": "Batch Enable Rescue Email Management",
+        "batchDisableRescueEmail": "Batch Disable Rescue Email Management",
         "selectAll": "Select All",
         "deselectAll": "Deselect All",
         "notSelected": "Not Selected",
@@ -335,6 +342,7 @@
         "usernameAlreadyExist": "Username Already Exists",
         "emailAlreadyExist": "Email Already Exists",
         "emailUnlockUrl": "Email Unlock URL",
+        "rescueEmailDomain": "Rescue Email Domain",
         "disableSelf": "You cannot disable your own account",
         "downgradeSelf": "You cannot remove your own admin privileges",
         "createTime": "Creation Time",
@@ -609,7 +617,8 @@
             "balance.float": "Balance must be a number",
             "status.boolean": "Status identifier must be a boolean value",
             "balance.egt": "Balance cannot be less than 0",
-            "balance.elt": "Balance cannot be greater than 99999999.99"
+            "balance.elt": "Balance cannot be greater than 99999999.99",
+            "rescue_email_domain.activeUrl": "Rescue email domain is invalid or not accessible"
         },
         "userLogin": {
             "username.require": "Username cannot be empty",
@@ -840,5 +849,9 @@
     },
     "loginRecord": {
         "title": "Login Records"
+    },
+    "link": {
+        "emailUnlockTutorial": "https://appleauto.pro/docs/others/email-unlock.html",
+        "webhookDoc": "https://appleauto.pro/en/docs/api/webhook.html"
     }
 }

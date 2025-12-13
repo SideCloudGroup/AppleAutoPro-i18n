@@ -192,7 +192,11 @@
         "perAccount": "每个账号",
         "feeDiff": "功能差价",
         "accountList": "账号列表",
-        "enableFirst": "账号已被禁用，请先启用账号"
+        "enableFirst": "账号已被禁用，请先启用账号",
+        "autoManageRescueEmail": "自动管理救援邮箱",
+        "autoManageRescueEmailTip": "当在用户信息中设置了邮件解锁，并填写根域名后，在启用该功能时，后端会自动管理账号的救援邮箱。系统会为每个账号生成一个8位随机字符串@根域名的救援邮箱地址。",
+        "rescueEmailAddress": "救援邮箱地址",
+        "rescueEmailDomainNotSet": "请先在个人设置中设置救援邮箱域名"
     },
     "emptyForNotUse": "不使用请留空",
     "remark": "备注",
@@ -264,6 +268,8 @@
         "batchDisable": "批量禁用",
         "batchDelete": "批量删除",
         "batchExport": "批量导出",
+        "batchEnableRescueEmail": "批量启用救援邮箱管理",
+        "batchDisableRescueEmail": "批量禁用救援邮箱管理",
         "selectAll": "全选",
         "deselectAll": "取消全选",
         "notSelected": "未选择",
@@ -342,6 +348,7 @@
         "usernameAlreadyExist": "用户名已存在",
         "emailAlreadyExist": "邮箱已存在",
         "emailUnlockUrl": "邮件解锁链接",
+        "rescueEmailDomain": "救援邮箱根域名",
         "disableSelf": "不能禁用自己的账号",
         "downgradeSelf": "不能取消自己的管理员权限",
         "createTime": "创建时间",
@@ -619,7 +626,8 @@
             "balance.float": "余额必须为数字",
             "status.boolean": "状态标识必须为布尔值",
             "balance.egt": "余额不能小于0",
-            "balance.elt": "余额不能大于99999999.99"
+            "balance.elt": "余额不能大于99999999.99",
+            "rescue_email_domain.activeUrl": "救援邮箱域名无效或无法访问"
         },
         "userLogin": {
             "username.require": "用户名不能为空",
@@ -851,5 +859,9 @@
     },
     "loginRecord": {
         "title": "登录记录"
+    },
+    "link": {
+        "emailUnlockTutorial": "https://appleauto.pro/docs/others/email-unlock.html",
+        "webhookDoc": "https://appleauto.pro/docs/api/webhook.html"
     }
 }
